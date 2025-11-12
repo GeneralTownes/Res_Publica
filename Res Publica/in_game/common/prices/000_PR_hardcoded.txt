@@ -1,4 +1,4 @@
 ﻿change_government_type_price = {
-	stability = 190
-	legitimacy = 95
+	stability = 150
+	legitimacy = 75
 }
