@@ -9,9 +9,12 @@
 
 	legislative_efficiency = 0.10
 	pop_leave_rebels_threshold = -0.05
-	global_estate_target_satisfaction = large_permanent_target_satisfaction
+	global_estate_target_satisfaction = medium_permanent_target_satisfaction
 	revoke_privilege_cost_modifier = 0.4
 	monthly_towards_liberalism = societal_value_monthly_move
+	
+	monthly_republican_tradition = -1
+	# to simulate decay of RT
 
 	great_power_score = 10
 }
