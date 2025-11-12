@@ -1,0 +1,31 @@
+﻿country_flavor = {
+	type = country
+
+	text = {
+		localization_key = rank_kingdom_protectorate_british_republic
+		trigger = {
+			
+			OR = {
+				country_rank_is_empire = yes
+				country_rank_is_kingdom = yes
+			}
+			government_type = government_type:republic
+			has_reform = government_reform:the_protectorate
+			culture = culture:english
+		}
+	}
+	
+	text = {
+		localization_key = rank_kingdom_commonwealth_british_republic
+		trigger = {
+
+			OR = {
+				country_rank_is_empire = yes
+				country_rank_is_kingdom = yes
+			}
+			government_type = government_type:republic
+			NOT = { has_reform = government_reform:the_protectorate }
+			culture = culture:english
+		}
+	}
+}
