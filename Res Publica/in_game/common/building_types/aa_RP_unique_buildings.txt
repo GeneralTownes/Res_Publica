@@ -1,0 +1,265 @@
+﻿kings_manor = {
+	is_foreign = no
+	pop_type = nobles
+	max_levels = 1
+	
+	employment_size = large_noble_employment
+	
+	category = government_category
+	
+	rural_settlement = no
+	town = yes
+	city = yes
+
+	country_potential = {
+		custom_tooltip = {
+			text = kings_manor_why
+			tag = ENG
+			has_variable = council_of_the_north
+		}
+	}
+
+	allow = {
+		always = no
+	}
+
+	can_destroy = {
+		NOT = { owner = { has_variable = council_of_the_north } }
+	}
+
+
+	build_time = government_build_time
+
+	location_potential = {
+	}
+
+
+	unique_production_methods = {
+		kings_manor_maintenance = {
+			tools = 0.1
+			masonry = 0.2
+			weaponry = 0.1
+			paper = 0.5
+			furniture = 0.25
+			fine_cloth = 0.25
+
+			category = building_maintenance
+		}
+	}
+
+
+	construction_demand = early_capital_building_construction
+
+	modifier = {
+		local_nobles_estate_power = 0.5
+		local_proximity_source = 50
+	}
+}
+
+peel_towers = {
+	is_foreign = no
+	pop_type = soldiers
+	
+	max_levels = 1
+	employment_size = castle_employment
+	
+	category = defense_category
+	
+	rural_settlement = yes
+	town = yes
+	city = yes
+
+	expensive = yes
+	
+	build_time = small_fort_building
+	
+	country_potential = {
+		has_advance = peel_towers_advance
+	}
+	location_potential = {
+		region = region:great_britain_region
+		is_border = yes
+	}
+	
+	unique_production_methods = {
+		peel_towers_maintenance = {
+			stone = 0.2
+			weaponry = 0.2
+			tar = 0.1
+			category = building_maintenance
+		}
+
+	}
+
+	construction_demand = peel_towers_construction
+	
+
+	modifier = {
+		local_garrison_size = 0.1
+	}
+	
+}
+
+kremlin = {
+	is_foreign = no
+	pop_type = soldiers
+	
+	max_levels = kremlin_max_level
+	employment_size = huge_capital_peasants_employment
+	
+	category = defense_category
+	
+	rural_settlement = no
+	town = yes
+	city = yes
+	
+	
+	expensive = yes
+
+	country_potential = {
+		custom_tooltip = {
+			text = kremlin_why
+			OR = {
+				tag = MOS
+				tag = RUS
+			}
+			has_variable = kremlin
+		}
+	}
+	
+	location_potential = {
+		this = location:moscow
+	}
+		
+	can_destroy = {
+		always = yes
+	}
+	
+	build_time = huge_unique_build_time
+	
+	modifier = {
+		local_hostile_attrition = 0.10
+		local_garrison_size = 0.1
+		local_defensive = 0.1
+	}
+	
+	possible_production_methods = {
+		early_soldier_building_maintenance
+	}
+	construction_demand = kremlin_building_construction
+}
+
+novodevichy_convent = {
+	is_foreign = no
+	max_levels = 1
+	pop_type = laborers
+	category = defense_category
+	employment_size = castle_employment
+	town = yes
+	city = yes
+
+	price = orthodox_monastery_building
+
+	build_time = small_fort_building
+
+	country_potential = {
+		custom_tooltip = {
+			text = novodevichy_convent_why
+			OR = {
+				tag = MOS
+				tag = RUS
+			}
+			has_variable = novodevichy_convent
+		}
+		religion = religion:orthodox
+	}
+
+	location_potential = {
+		this = location:moscow
+	}
+
+	allow = {
+		always = no
+	}
+
+	can_destroy = {
+		always = yes
+	}
+
+	possible_production_methods = { monastery_maintenance }
+
+	construction_demand = novodevichy_building_construction
+
+	modifier = {
+		local_defensive = 0.25
+		local_nobles_desired_pop = 0.01
+        max_attrition = 1
+	}
+}
+
+khmer_baray = {
+	is_foreign = no
+	pop_type = laborers
+	max_levels = 1
+	employment_size = special_medium_peasant_building
+	category = infrastructure_category
+	rural_settlement = no
+	town = yes
+	city = yes
+	expensive = yes
+	location_potential = {
+		dominant_culture = culture:khmer_culture
+	}
+	country_potential = {
+		OR = {
+			tag = KHM
+			culture = culture:khmer_culture
+		}
+	}
+	build_time = huge_unique_build_time
+	modifier = {
+		local_population_capacity = 2
+		local_monthly_food_modifier = 0.2
+	}
+	possible_production_methods = {
+		khmer_baray_maintenance
+	}
+	construction_demand = khmer_baray_construction
+}
+
+walls_of_benin = {
+	is_foreign = no
+	max_levels = 1
+	pop_type = soldiers
+
+	employment_size = 2.0
+	category = defense_category
+	
+	
+	rural_settlement = no
+	town = no
+	city = yes
+	build_time = huge_unique_build_time
+
+	location_potential = {
+		this = location:benin
+	}
+	
+	country_potential = {
+		owns = location:benin
+	}
+
+	expensive = yes
+	possible_production_methods = {
+		basic_castle_maintenance
+	}
+	construction_demand = castle_construction
+
+	modifier = {
+		local_garrison_size = 0.15
+		local_defensive = 0.15
+		blocks_vision_from_land = yes
+		blocks_vision_from_sea = yes
+	}
+	
+}
