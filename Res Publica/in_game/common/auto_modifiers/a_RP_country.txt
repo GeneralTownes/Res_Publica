@@ -7,6 +7,12 @@
 	pop_join_rebel_threshold = -0.1
 	pop_leave_rebels_threshold = -0.05
 	local_monthly_prosperity = 0.001
+	
+	monthly_legitimacy = 0.1
+	monthly_tribal_cohesion = 0.1
+	monthly_devotion = 0.1
+	monthly_horde_unity = 0.1
+	monthly_republican_tradition = 0.1
 
 	great_power_score = 5.0
 }
@@ -30,4 +36,16 @@ high_republican_tradition = {
 	# to simulate decay of RT
 
 	great_power_score = 10
+}
+low_republican_tradition = {
+	potential_trigger = {
+		uses_government_power = republican_tradition
+	}
+	scales_with = {
+		value = republican_tradition
+		multiply = -0.01
+		add = 1
+	}
+
+	stability_cost = 1.0
 }
