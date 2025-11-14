@@ -4,7 +4,7 @@
 	"version":	"1.0.0",
 	"supported_game_version":	"1.*",
 	"short_description":	"Lightweight mod to adjust adjust reforming into a republic, English Republic and Ruler names, and republican tradition.",
-	"tags":	["Balance", "Fixes", "Gameplay", "Government and Estates"],
+	"tags":	["Balance", "Gameplay", "Government and Estates"],
 	"relationships":	[],
 	"game_custom_data":	{
 }
