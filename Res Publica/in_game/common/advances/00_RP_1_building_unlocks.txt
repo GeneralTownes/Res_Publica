@@ -1,0 +1,18 @@
+﻿###################################
+# Capital Buildings
+###################################
+royal_court_advance = {
+	age = age_1_traditions
+	government = monarchy
+	requires = castle_advance
+	
+	unlock_building = royal_court
+}
+
+republican_assembly_advance = {
+	age = age_1_traditions
+	government = republic
+	requires = castle_advance
+	
+	unlock_building = republican_assembly
+}

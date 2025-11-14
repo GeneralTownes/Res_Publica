@@ -1,0 +1,6 @@
+﻿republican_foundation_law_advance = {
+	age = age_1_traditions
+	#government = republic
+	requires = medieval_administration
+	unlock_law = republican_foundation_law
+}
