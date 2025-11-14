@@ -1,0 +1,66 @@
+﻿change_parliament_type = {
+	type = owncountry
+	
+	ai_prerequisite = {
+		at_war = no
+		stability >= 40
+		legitimacy >= 90
+	}
+
+
+	allow = {
+		scope:actor = {
+			is_active_parliament = no
+			#modifier:parliament_abolished = no # as no_parliament now assigns this modifier
+		}
+	}
+	
+	price = price:change_parliament_type
+
+
+	select_trigger = {
+		looking_for_a = parliament_type
+		source = actor
+		target_flag = parliament_type
+		name = "select_parliament_type"
+		none_available_msg_key = "change_parliament_type_no_types"
+		top_widget = parliament_Type_context_widget
+		column = {
+			data = parliament_type_widget
+		}		
+		visible = {
+			is_visible_for = scope:actor
+		}
+		enabled = {
+			is_allowed_for = scope:actor
+		}
+	}
+
+	effect = {
+		scope:actor = {
+			if = {
+				limit = {
+					exists = scope:parliament_type
+				}
+				set_parliament_type = scope:parliament_type
+			}
+		}
+	}
+	
+	ai_tick = daily
+	ai_tick_frequency = 365
+
+	automation_tick = daily
+	automation_tick_frequency = 1
+	player_automated_category = parliament
+	ai_will_do = {
+		# base reluctance
+		subtract = {
+			value = 10
+		}
+
+		scope:actor = {
+			add = "parliament_type_utility(scope:parliament_type|yes)"
+		}
+	}
+}
