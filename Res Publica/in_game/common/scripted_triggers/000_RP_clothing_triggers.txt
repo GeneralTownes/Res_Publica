@@ -1,0 +1,33 @@
+﻿portrait_royalty_trigger = {
+	trigger_if = { # Spouse
+		limit = { 
+			exists = this
+			is_ruler = no
+			is_married = yes
+		}
+		any_spouse ?= {
+			is_alive = yes
+			is_ruler = yes
+			any_ruling_countries = { country_rank_level = 3 }
+		}
+		portrait_clothing_trigger = { CULTURE_FLAG = $CULTURE_GFX$ }
+	}
+	trigger_else_if = { # Ruler
+		limit = { 
+			exists = this
+		}
+		any_ruling_countries = {
+			OR = {
+				country_rank_level = 3
+				any_international_organizations_member_of = {
+					international_organization_type = international_organization_type:high_kingship
+					exists = leader_country
+					leader_country ?= prev
+				}
+			}
+			government_type = government_type:monarchy
+		}
+		portrait_clothing_trigger = { CULTURE_FLAG = $CULTURE_GFX$ }
+	}
+	trigger_else = { always = no }
+}
