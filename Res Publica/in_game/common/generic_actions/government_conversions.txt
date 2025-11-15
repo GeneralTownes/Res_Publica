@@ -105,8 +105,7 @@ monarchy_to_republic = {
 		}
 	}
 	allow = {
-		scope:actor = {
-			has_advance = republican_foundation_law_advance
+		scope:actor = {		
 			at_war = no
 			has_any_active_disaster = no
 			is_during_bankruptcy = no
