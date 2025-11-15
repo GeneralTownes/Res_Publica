@@ -6,7 +6,7 @@
 	
 	pop_join_rebel_threshold = -0.1
 	pop_leave_rebels_threshold = -0.05
-	local_monthly_prosperity = 0.001
+	global_monthly_prosperity = 0.001
 	
 	monthly_legitimacy = 0.1
 	monthly_tribal_cohesion = 0.1
