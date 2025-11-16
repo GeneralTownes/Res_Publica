@@ -26,3 +26,76 @@
 
 	years = 4
 }
+
+an_agreement_of_the_people = {
+	unique = yes
+	government = republic
+	
+	potential = {
+		OR = {
+			tag = ENG
+			tag = GBR
+			culture = culture:english
+		}
+	}
+	
+	allow = {
+		has_advance = popular_sovereignty_advance
+		has_estate_privilege = estate_privilege:peasants_represented_in_parliament
+		has_estate_privilege = estate_privilege:peasants_in_administration
+	}
+
+	country_modifier = {
+		nobles_estate_target_satisfaction = large_permanent_target_satisfaction_penalty
+		global_peasants_estate_power = 1
+		global_crown_estate_power = 0.25
+	
+		tolerance_heretic = 1
+		tolerance_heathen = 1
+		
+		monthly_republican_tradition = 0.1
+		
+		monthly_towards_liberalism = societal_value_monthly_move
+		monthly_towards_free_subjects = societal_value_monthly_move
+		monthly_towards_humanist = societal_value_monthly_move
+		
+		pop_join_rebel_threshold = -0.1
+	}
+
+	years = 4
+}
+
+levelling_the_land = {
+	unique = yes
+	government = republic
+	
+	potential = {
+		OR = {
+			tag = ENG
+			tag = GBR
+			culture = culture:english
+		}
+	}
+	
+	allow = {
+		has_reform = government_reform:an_agreement_of_the_people
+		has_estate_privilege = estate_privilege:communal_lands
+	}
+
+	country_modifier = {
+		global_nobles_estate_power = -0.5
+		nobles_estate_target_satisfaction = big_permanent_target_satisfaction_penalty
+		
+		global_peasants_estate_power = 1
+		global_monthly_prosperity = 0.0015
+		
+		monthly_towards_liberalism = societal_value_minor_monthly_move
+		monthly_towards_free_subjects = societal_value_large_monthly_move
+		monthly_towards_traditional_economy = societal_value_minor_monthly_move
+		monthly_towards_decentralization = societal_value_large_monthly_move
+		
+		pop_join_rebel_threshold = -0.1
+	}
+
+	years = 4
+}

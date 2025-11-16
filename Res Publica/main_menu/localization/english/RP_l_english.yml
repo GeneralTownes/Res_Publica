@@ -4,6 +4,10 @@
  
  constitutional_republic: "Constitutional Republic"
  constitutional_republic_desc: "A constitutional republic is a form of government where political rights and powers are specified by a written constitution that establishes a republic governed by elected officials."
+ an_agreement_of_the_people: "An Agreement of the People"
+ an_agreement_of_the_people_desc: "An Agreement of the People was a series of manifestos, published between 1647 and 1649, for constitutional changes to the English state. The major tenets of the first version of the Agreement were: freedom of religion, the frequent convening of new parliaments and equality before the law. The Agreements of the People have been most associated as the manifestos of the Levellers but were also published by the Agitators and the General Council of the New Model Army."
+ levelling_the_land: "Levelling the Land"
+ levelling_the_land_desc: "The Diggers were a group of religious and political dissidents in England known as True Levellers in 1649, in reference to their split from the Levellers, and later became known as Diggers because of their attempts to farm on common land. The Diggers tried (by "levelling" land) to reform the existing social order with an agrarian lifestyle based on their ideas for the creation of small, egalitarian rural communities."
  
  republic_5_year_terms: "Constitutional Republic 5 Year Terms"
  republic_5_year_terms_desc: "It is a type of [heir_selection|e] of a [ShowGovernmentTypeName('republic')], in which the [ruler|e] is selected by [election|e] for an established tenure of 5 years from amongst any estate."
