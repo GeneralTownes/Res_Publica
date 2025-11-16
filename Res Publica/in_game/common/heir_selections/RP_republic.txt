@@ -1,0 +1,78 @@
+﻿republic_5_year_terms = {
+
+	#allow_female = yes
+	use_election = yes
+	term_duration = 60 # in months
+	max_possible_candidates = 4
+	
+	potential = {
+		has_reform = government_reform:constitutional_republic 
+	}
+
+	locked = {
+		has_reform = government_reform:constitutional_republic 
+	}
+
+	allowed_estates = { nobles_estate burghers_estate clergy_estate peasants_estate }
+	
+	heir_is_allowed = {
+	}
+	
+	calc = {
+		if = {
+			limit = {
+				exists = root
+			}
+			add = {
+				desc = "HEIR_SELECTION_ADM_DESC"
+				value = root.adm
+			}
+			add = {
+				desc = "HEIR_SELECTION_DIP_DESC"
+				value = root.dip
+			}
+			add = {
+				desc = "HEIR_SELECTION_MIL_DESC"
+				value = root.mil
+			}
+			#add = {
+			#	desc = "HEIR_SELECTION_OLDER_HEIR_DESC"
+			#	value = character_age
+			#}
+			if = { 
+				limit = { modifier:blocked_from_being_ruler = yes }
+				add = {
+					desc = "HEIR_SELECTION_IS_UNSUITED_TO_RULE_DESC"
+					value = -1000 
+				}
+			}
+		}
+
+		# Here it goes the description for explaining the lottery election
+		if = {
+			limit = {
+				not = { exists = root }
+			}
+			add = {
+				desc = "HEIR_SELECTION_ADM_DESC"
+				value = 1
+			}
+			add = {
+				desc = "HEIR_SELECTION_DIP_DESC"
+				value = 1
+			}
+			add = {
+				desc = "HEIR_SELECTION_MIL_DESC"
+				value = 1
+			}
+			#add = {
+			#	desc = "HEIR_SELECTION_OLDER_HEIR_DESC"
+			#	value = 1
+			#}
+		}
+	}
+
+	modifier = {
+		care_about_producing_heirs = no
+	}
+}

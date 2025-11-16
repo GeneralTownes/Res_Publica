@@ -1,0 +1,28 @@
+﻿constitutional_republic = {
+	major = yes
+	government = republic
+	allow = {
+		has_advance = popular_sovereignty_advance
+	}
+
+	country_modifier = {
+		global_crown_estate_power = 0.5
+		crown_estate_blocked_from_cabinet = yes
+		crown_estate_blocked_from_leading_military = yes
+		
+		monthly_republican_tradition = 0.1
+		country_cabinet_efficiency = 0.25
+		
+		monthly_towards_liberalism = societal_value_monthly_move
+		monthly_towards_free_subjects = societal_value_monthly_move
+		monthly_towards_humanist = societal_value_monthly_move
+		
+		global_estate_target_satisfaction = medium_permanent_target_satisfaction
+	}
+	
+	on_activate = {
+		change_heir_selection = heir_selection:republic_5_year_terms
+	}
+
+	years = 4
+}

@@ -1,0 +1,8 @@
+﻿popular_sovereignty_advance = {
+	age = age_5_absolutism
+	government = republic
+	requires = the_constitution
+	
+	global_peasants_estate_power = 1
+	peasants_estate_target_satisfaction = medium_permanent_target_satisfaction
+}

@@ -1,0 +1,10 @@
+﻿l_english:
+ popular_sovereignty_advance: "Popular Sovereignty"
+ popular_sovereignty_advance_desc: "Popular sovereignty is the political principle that the legitimacy to govern derives from the consent of the governed, who are the source of all political power."
+ 
+ constitutional_republic: "Constitutional Republic"
+ constitutional_republic_desc: "A constitutional republic is a form of government where political rights and powers are specified by a written constitution that establishes a republic governed by elected officials."
+ 
+ republic_5_year_terms: "Constitutional Republic 5 Year Terms"
+ republic_5_year_terms_desc: "It is a type of [heir_selection|e] of a [ShowGovernmentTypeName('republic')], in which the [ruler|e] is selected by [election|e] for an established tenure of 5 years from amongst any estate."
+ 
