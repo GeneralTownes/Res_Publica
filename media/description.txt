@@ -1,22 +1,32 @@
 [h1] Res Publica [/h1]
-
+The English Civil War led to major developments in political theory about the nature of sovereignty, freedom, and self-government. The Levellers came to prominence at the end of the First English Civil War (1642–1646) and were committed to popular sovereignty, extended suffrage, equality before the law and religious tolerance with their ideas were presented in their manifesto "Agreement of the People". A group known as the True Levellers in 1649, in reference to their split from the Levellers, and later as Diggers because of their attempts to farm on common land, tried (by "levelling" land) to reform the existing social order with an agrarian lifestyle based on their ideas for the creation of small, egalitarian rural communities. The establishment of the Protectorate ended the nascent experiment with popular sovereignty, paving the way for the return of monarchy. What route will the people of England and Britain go now? 
 
 [h2] Adjustments [/h2]
 [list]
-    [*] asdf
+    [*] Cost to change government type increased to 150 stability & 75 legitimacy with value requirement reduced to 75
+    [*] Stability increases/decreases legitimacy and prosperity
+    [*] Prosperity decays and taken off building effects
+    [*] Republican tradition increases revoke cost, increases estate happiness, and decays
+    [*] Centralised & Decentralised bureaucracy laws adjusted
+    [*] No Parliament really is no parliament, with added crown power and less happiness loss
+    [*] Authoritarian republic gives more +5 max control
+[/list]
+
+[h2] New Mechanics [/h2]
+[list]
+    [*] Popular Sovereignty advance in Age of Absolutism after The Constitution
+    [*] Constituional Republic government reform blocks ruler dynasty from cabinet and military
+    [*] Constituional republic succession law that prevents royal marriages and scores on merit alone
 [/list]
 
 [h2] Flavour [/h2]
 [list]
-    [*] asdf
+    [*] Protectorate and Commmonwealth are two different names and ruler titles
+    [*] Two government reforms to represent the Levellers and Diggers, conditional on constitutionalism and peasant rights
+    [*] Constituional British Republic given a new flag to replace the four-nations flag.
 [/list]
-
-[h3] To Note [/h3]
-This mod is [u] not intended[/u] for less experienced players. You may end up collapsing into The Warlord Era, however whilst this will be challenging, it is recoverable.
-Winning (cheesing) the Opium War will result in a trivially easy campaign. It is not intended to be won. Setting AI aggression to "High" is strongly recommended.
-
 
 Anyone welcome to use part/all of this mod in their own, and if so credit with a reference appreciated.
 
-[img] https://collectionapi.metmuseum.org/api/collection/v1/iiif/49156/198919/main-image [/img]
-[i] [url=https://www.metmuseum.org/essays/the-qing-dynasty-1644-1911-the-traditionalists] The Kangxi Emperor's Southern Inspection Tour, Scroll Three: Ji'nan to Mount Tai[/url], datable to 1698 [/i]
+[img] https://upload.wikimedia.org/wikipedia/commons/7/7c/Cromwell_cutting_down_the_Royal_Oak%2C_1649.jpg [/img]
+[i] [url=https://commons.wikimedia.org/wiki/File:Cromwell_cutting_down_the_Royal_Oak,_1649.jpg] This satirical print depicts Oliver Cromwell ordering the felling of the Royal Oak of Britain, symbol of the English monarchy.[/url], 1649 [/i]
