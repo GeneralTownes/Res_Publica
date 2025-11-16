@@ -40,7 +40,7 @@ an_agreement_of_the_people = {
 	}
 	
 	allow = {
-		has_advance = popular_sovereignty_advance
+		has_reform = government_reform:constitutional_republic
 		has_estate_privilege = estate_privilege:peasants_represented_in_parliament
 		has_estate_privilege = estate_privilege:peasants_in_administration
 	}
