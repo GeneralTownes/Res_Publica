@@ -1,0 +1,18 @@
+GBR_UFB = {
+	pattern = "pattern_solid_vic3.tga"
+	color1 = "red"
+	color2 = "white"
+	color3 = "green"
+
+	colored_emblem = {
+		texture = "ce_tricolor_horizontal_thick.dds"
+		color1 = color2
+		color2 = color3
+		color3 = color3
+	}
+
+	textured_emblem = {
+		texture = "UFB_emblem.dds"
+		instance = { scale = { 0.75 0.75 } position = { 0.5 0.5 } }
+	}
+}

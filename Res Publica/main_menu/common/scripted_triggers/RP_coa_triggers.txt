@@ -1,0 +1,5 @@
+﻿coa_constitutional_republic_trigger = {
+	scope:actor ?= {
+		has_reform = government_reform:constitutional_republic
+	}
+}
