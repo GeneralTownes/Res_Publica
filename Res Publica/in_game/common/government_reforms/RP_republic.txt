@@ -47,8 +47,7 @@ an_agreement_of_the_people = {
 
 	country_modifier = {
 		nobles_estate_target_satisfaction = large_permanent_target_satisfaction_penalty
-		global_peasants_estate_power = 1
-		global_crown_estate_power = 0.25
+		global_peasants_estate_power = 2
 	
 		tolerance_heretic = 1
 		tolerance_heathen = 1
@@ -62,7 +61,7 @@ an_agreement_of_the_people = {
 		pop_join_rebel_threshold = -0.1
 	}
 
-	years = 4
+	years = 2
 }
 
 levelling_the_land = {
@@ -97,5 +96,5 @@ levelling_the_land = {
 		pop_join_rebel_threshold = -0.1
 	}
 
-	years = 4
+	years = 2
 }
