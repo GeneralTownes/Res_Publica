@@ -1,0 +1,22 @@
+[h1] Res Publica [/h1]
+
+
+[h2] Adjustments [/h2]
+[list]
+    [*] asdf
+[/list]
+
+[h2] Flavour [/h2]
+[list]
+    [*] asdf
+[/list]
+
+[h3] To Note [/h3]
+This mod is [u] not intended[/u] for less experienced players. You may end up collapsing into The Warlord Era, however whilst this will be challenging, it is recoverable.
+Winning (cheesing) the Opium War will result in a trivially easy campaign. It is not intended to be won. Setting AI aggression to "High" is strongly recommended.
+
+
+Anyone welcome to use part/all of this mod in their own, and if so credit with a reference appreciated.
+
+[img] https://collectionapi.metmuseum.org/api/collection/v1/iiif/49156/198919/main-image [/img]
+[i] [url=https://www.metmuseum.org/essays/the-qing-dynasty-1644-1911-the-traditionalists] The Kangxi Emperor's Southern Inspection Tour, Scroll Three: Ji'nan to Mount Tai[/url], datable to 1698 [/i]
