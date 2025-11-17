@@ -6,11 +6,11 @@
 	}
 
 	country_modifier = {
-		global_crown_estate_power = 0.5
 		crown_estate_blocked_from_cabinet = yes
 		crown_estate_blocked_from_leading_military = yes
 		
 		monthly_republican_tradition = 0.1
+		stability_investment = cabinet_stability_investment
 		country_cabinet_efficiency = 0.25
 		
 		monthly_towards_liberalism = societal_value_monthly_move
