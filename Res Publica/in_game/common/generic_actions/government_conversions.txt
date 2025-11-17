@@ -39,10 +39,10 @@ steppe_horde_to_monarchy = {
 			}
 			NOT = { has_country_modifier = reformation_of_the_horde }
 
-			custom_tooltip = {
-				text = not_in_union_tt
-				NOT = { exists = union }
-			}
+			#custom_tooltip = {
+			#	text = not_in_union_tt
+			#	NOT = { exists = union }
+			#}
 		}
 	}
 	effect = {
@@ -114,10 +114,10 @@ monarchy_to_republic = {
             societal_value:aristocracy_vs_plutocracy >= 75
             legitimacy > 75
 			stability > 0
-			custom_tooltip = {
-				text = not_in_union_tt
-				NOT = { exists = union }
-			}
+			#custom_tooltip = {
+			#	text = not_in_union_tt
+			#	NOT = { exists = union }
+			#}
 		}
 	}
 	effect = {
@@ -176,10 +176,10 @@ monarchy_to_theocracy = {
             societal_value:spiritualist_vs_humanist <= -75
             legitimacy > 75
 			stability > 0
-			custom_tooltip = {
-				text = not_in_union_tt
-				NOT = { exists = union }
-			}
+			#custom_tooltip = {
+			#	text = not_in_union_tt
+			#	NOT = { exists = union }
+			#}
 		}
 	}
 	effect = {
@@ -236,10 +236,10 @@ theocracy_to_monarchy = {
 			societal_value:aristocracy_vs_plutocracy <= -75
             legitimacy > 75
 			stability > 0
-			custom_tooltip = {
-				text = not_in_union_tt
-				NOT = { exists = union }
-			}
+			#custom_tooltip = {
+			#	text = not_in_union_tt
+			#	NOT = { exists = union }
+			#}
 		}
 	}
 	effect = {
@@ -301,10 +301,10 @@ theocracy_to_republic = {
 			}
             legitimacy > 75
 			stability > 0
-			custom_tooltip = {
-				text = not_in_union_tt
-				NOT = { exists = union }
-			}
+			#custom_tooltip = {
+			#	text = not_in_union_tt
+			#	NOT = { exists = union }
+			#}
 		}
 	}
 	effect = {
@@ -365,10 +365,10 @@ republic_to_monarchy = {
             societal_value:aristocracy_vs_plutocracy <= -75
             legitimacy > 75
 			stability > 0
-			custom_tooltip = {
-				text = not_in_union_tt
-				NOT = { exists = union }
-			}
+			#custom_tooltip = {
+			#	text = not_in_union_tt
+			#	NOT = { exists = union }
+			#}
 		}
 	}
 	effect = {
@@ -427,10 +427,10 @@ gov_action_republic_to_theocracy = {
             societal_value:spiritualist_vs_humanist <= -75
             legitimacy > 75
 			stability > 0
-			custom_tooltip = {
-				text = not_in_union_tt
-				NOT = { exists = union }
-			}
+			#custom_tooltip = {
+			#	text = not_in_union_tt
+			#	NOT = { exists = union }
+			#}
 		}
 	}
 	effect = {
@@ -492,10 +492,10 @@ tribal_to_monarchy = {
 			societal_value:centralization_vs_decentralization < 0
             legitimacy > 75
 			stability > 0
-			custom_tooltip = {
-				text = not_in_union_tt
-				NOT = { exists = union }
-			}
+			#custom_tooltip = {
+			#	text = not_in_union_tt
+			#	NOT = { exists = union }
+			#}
 		}
 	}
 	effect = {
