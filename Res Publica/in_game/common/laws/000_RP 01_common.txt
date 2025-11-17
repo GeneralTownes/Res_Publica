@@ -3,7 +3,7 @@
 	centralized_bureaucracy_policy = {
 		country_modifier = {
 			global_road_building_time = -0.33
-			global_build_buildings_cost = -0.1
+			global_urban_build_buildings_cost = -0.1
 			monthly_towards_centralization = societal_value_monthly_move
 		}
 		estate_preferences = {
