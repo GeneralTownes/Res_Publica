@@ -10,20 +10,21 @@ The English Civil War led to major developments in political theory about the na
     [*] Centralised & Decentralised bureaucracy laws adjusted
     [*] No Parliament really is no parliament, with added crown power and less happiness loss
     [*] Authoritarian republic gives more +5 max control
+    [*] Merchant Republic reform can be revoked with >50% republic power and <33% burgher power
 [/list]
 
 [h2] New Mechanics [/h2]
 [list]
     [*] Popular Sovereignty advance in Age of Absolutism after The Constitution
-    [*] Constituional Republic government reform blocks ruler dynasty from cabinet and military
-    [*] Constituional republic succession law that prevents royal marriages and scores on merit alone
+    [*] Constitutional Republic government reform blocks ruler dynasty from cabinet and military
+    [*] Constitutional republic succession law that prevents royal marriages and scores on merit alone
 [/list]
 
 [h2] Flavour [/h2]
 [list]
-    [*] Protectorate and Commmonwealth are two different names and ruler titles
+    [*] Protectorate and Commonwealth are two different names and ruler titles
     [*] Two government reforms to represent the Levellers and Diggers, conditional on constitutionalism and peasant rights
-    [*] Constituional British Republic given a new flag to replace the four-nations flag.
+    [*] Constitutional British Republic given a new flag to replace the four-nations flag.
 [/list]
 
 Anyone welcome to use part/all of this mod in their own, and if so credit with a reference appreciated.
