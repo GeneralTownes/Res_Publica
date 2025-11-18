@@ -51,6 +51,7 @@
 	construction_demand = early_capital_building_construction
 
 	modifier = {
+		local_monthly_prosperity = 0.001
 		local_nobles_estate_power = 0.5
 		local_proximity_source = 50
 	}
@@ -139,6 +140,7 @@ kremlin = {
 	build_time = huge_unique_build_time
 	
 	modifier = {
+		local_monthly_prosperity = 0.001
 		local_hostile_attrition = 0.10
 		local_garrison_size = 0.1
 		local_defensive = 0.1
@@ -193,39 +195,10 @@ novodevichy_convent = {
 
 	modifier = {
 		local_defensive = 0.25
+		local_monthly_prosperity = 0.001
 		local_nobles_desired_pop = 0.01
         max_attrition = 1
 	}
-}
-
-khmer_baray = {
-	is_foreign = no
-	pop_type = laborers
-	max_levels = 1
-	employment_size = special_medium_peasant_building
-	category = infrastructure_category
-	rural_settlement = no
-	town = yes
-	city = yes
-	expensive = yes
-	location_potential = {
-		dominant_culture = culture:khmer_culture
-	}
-	country_potential = {
-		OR = {
-			tag = KHM
-			culture = culture:khmer_culture
-		}
-	}
-	build_time = huge_unique_build_time
-	modifier = {
-		local_population_capacity = 2
-		local_monthly_food_modifier = 0.2
-	}
-	possible_production_methods = {
-		khmer_baray_maintenance
-	}
-	construction_demand = khmer_baray_construction
 }
 
 walls_of_benin = {
@@ -259,6 +232,7 @@ walls_of_benin = {
 	modifier = {
 		local_garrison_size = 0.15
 		local_defensive = 0.15
+		local_monthly_prosperity = 0.001
 		blocks_vision_from_land = yes
 		blocks_vision_from_sea = yes
 	}

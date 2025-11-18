@@ -19,6 +19,7 @@
 	build_time = large_cultural_building_time
 	
 	modifier = {
+		local_monthly_prosperity = 0.001
 		local_crown_estate_power = 0.25
 	}
 
@@ -56,6 +57,9 @@ belvedere_palace = {
 		always = no
 	}
 	
+	capital_modifier = {
+		local_monthly_prosperity = 0.001
+	}
 	capital_country_modifier = {
 		prestige_decay = -0.001
 		monthly_prestige = 0.1
@@ -92,6 +96,7 @@ el_escorial_palace = {
 	
 	
 	modifier = {
+		local_monthly_prosperity = 0.001
 		local_crown_estate_power = 1.0
 		local_cultural_tradition = 0.25
 	}
