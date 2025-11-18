@@ -13,7 +13,7 @@
 		stability_investment = cabinet_stability_investment
 		country_cabinet_efficiency = 0.25
 		
-		monthly_towards_liberalism = societal_value_monthly_move
+		monthly_towards_liberalism = societal_value_large_monthly_move
 		monthly_towards_free_subjects = societal_value_monthly_move
 		monthly_towards_humanist = societal_value_monthly_move
 		
@@ -47,6 +47,7 @@ an_agreement_of_the_people = {
 
 	country_modifier = {
 		nobles_estate_target_satisfaction = large_permanent_target_satisfaction_penalty
+		global_burghers_estate_power = 1
 		global_peasants_estate_power = 2
 	
 		tolerance_heretic = 1
@@ -54,7 +55,7 @@ an_agreement_of_the_people = {
 		
 		monthly_republican_tradition = 0.1
 		
-		monthly_towards_liberalism = societal_value_monthly_move
+		monthly_towards_liberalism = societal_value_large_monthly_move
 		monthly_towards_free_subjects = societal_value_monthly_move
 		monthly_towards_humanist = societal_value_monthly_move
 		
@@ -85,8 +86,9 @@ levelling_the_land = {
 		global_nobles_estate_power = -0.5
 		nobles_estate_target_satisfaction = big_permanent_target_satisfaction_penalty
 		
-		global_peasants_estate_power = 1
-		global_monthly_prosperity = 0.0015
+		global_peasants_estate_power = 3
+		peasants_estate_target_satisfaction = medium_permanent_target_satisfaction
+		global_monthly_prosperity = 0.002
 		
 		monthly_towards_liberalism = societal_value_minor_monthly_move
 		monthly_towards_free_subjects = societal_value_large_monthly_move
