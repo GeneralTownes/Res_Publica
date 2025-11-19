@@ -8,6 +8,7 @@ The English Civil War led to major developments in political theory about the na
     [*] Stability increases/decreases legitimacy and prosperity
     [*] Prosperity decays and taken off building effects
     [*] Republican tradition increases revoke cost, increases estate happiness, and decays
+    [*] No republican tradition now gives +50% stab cost max (rather than +200%)
     [*] Centralised & Decentralised bureaucracy laws adjusted
     [*] No Parliament really is no parliament, with added crown power and less happiness loss
     [*] Authoritarian republic gives more +5 max control
