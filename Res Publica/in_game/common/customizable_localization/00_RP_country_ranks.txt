@@ -11,7 +11,11 @@
 			}
 			government_type = government_type:republic
 			has_reform = government_reform:the_protectorate
-			culture = culture:english
+			OR = {
+				has_or_had_tag = ENG
+				has_or_had_tag = GBR
+				culture.language = language:english_language
+			}
 		}
 	}
 	
@@ -25,7 +29,11 @@
 			}
 			government_type = government_type:republic
 			NOT = { has_reform = government_reform:the_protectorate }
-			culture = culture:english
+			OR = {
+				has_or_had_tag = ENG
+				has_or_had_tag = GBR
+				culture.language = language:english_language
+			}
 		}
 	}
 }
