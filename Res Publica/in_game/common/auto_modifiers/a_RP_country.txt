@@ -47,5 +47,5 @@ low_republican_tradition = {
 		add = 1
 	}
 
-	stability_cost = 1.0
+	stability_cost = 0.5
 }
