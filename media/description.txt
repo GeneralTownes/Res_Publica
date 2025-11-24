@@ -1,7 +1,7 @@
-[b] [u] Res Publica [/u] [/b]
+[h1] Res Publica [/h1]
 The English Civil War led to major developments in political theory about the nature of sovereignty, freedom, and self-government. The Levellers came to prominence at the end of the First English Civil War (1642–1646) and were committed to popular sovereignty, extended suffrage, equality before the law and religious tolerance with their ideas were presented in their manifesto "Agreement of the People". A group known as the True Levellers in 1649, in reference to their split from the Levellers, and later as Diggers because of their attempts to farm on common land, tried (by "levelling" land) to reform the existing social order with an agrarian lifestyle based on their ideas for the creation of small, egalitarian rural communities. The establishment of the Protectorate ended the nascent experiment with popular sovereignty, paving the way for the return of monarchy. What route will the people of England and Britain go now? 
 
-[b] Adjustments [/b]
+[h2] Adjustments [/h2]
 [list]
     [*] Cost to change government type increased to 150 stability & 75 legitimacy with value requirement reduced to 75
     [*] Can now change government type if in a union
@@ -16,14 +16,14 @@ The English Civil War led to major developments in political theory about the na
     [*] Development growth from develop province cabinet action reduced to 20% of original effect
 [/list]
 
-[b] New Mechanics [/b]
+[h2] New Mechanics [/h2]
 [list]
     [*] Popular Sovereignty advance in Age of Absolutism after The Constitution
     [*] Constitutional Republic government reform blocks ruler dynasty from cabinet and military
     [*] Constitutional republic succession law that prevents royal marriages and scores on merit alone
 [/list]
 
-[b] Flavour [/b]
+[h2] Flavour [/h2]
 [list]
     [*] Protectorate and Commonwealth are two different names and ruler titles
     [*] Two government reforms to represent the Levellers and Diggers, conditional on constitutionalism and peasant rights
