@@ -12,3 +12,5 @@
  republic_5_year_terms: "Constitutional Republic 5 Year Terms"
  republic_5_year_terms_desc: "It is a type of [heir_selection|e] of a [ShowGovernmentTypeName('republic')], in which the [ruler|e] is selected by [election|e] for an established tenure of 5 years from amongst any estate."
  
+ federal_state: "Federal Union"
+ 
