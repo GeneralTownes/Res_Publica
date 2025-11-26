@@ -11,6 +11,7 @@ The English Civil War led to major developments in political theory about the na
     [*] No republican tradition now gives +50% stab cost max (rather than +200%)
     [*] Centralised & Decentralised bureaucracy laws adjusted
     [*] No Parliament really is no parliament, with added crown power and less happiness loss
+    [*] Adjustments to administration system laws
     [*] Authoritarian republic gives more +5 max control
     [*] Merchant Republic reform can be revoked with >50% republic power and <33% burgher power
     [*] Development growth from develop province cabinet action reduced to 20% of original effect
