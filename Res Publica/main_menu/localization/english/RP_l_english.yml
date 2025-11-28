@@ -1,7 +1,9 @@
 ﻿l_english:
+ # Advances
  popular_sovereignty_advance: "Popular Sovereignty"
  popular_sovereignty_advance_desc: "Popular sovereignty is the political principle that the legitimacy to govern derives from the consent of the governed, who are the source of all political power."
  
+ # Government Reforms
  constitutional_republic: "Constitutional Republic"
  constitutional_republic_desc: "A constitutional republic is a form of government where political rights and powers are specified by a written constitution that establishes a republic governed by elected officials."
  an_agreement_of_the_people: "An Agreement of the People"
@@ -9,8 +11,17 @@
  levelling_the_land: "Levelling the Land"
  levelling_the_land_desc: "The Diggers were a group of religious and political dissidents in England known as True Levellers in 1649, in reference to their split from the Levellers, and later became known as Diggers because of their attempts to farm on common land. The Diggers tried (by "levelling" land) to reform the existing social order with an agrarian lifestyle based on their ideas for the creation of small, egalitarian rural communities."
  
+ # Succession
  republic_5_year_terms: "Constitutional Republic 5 Year Terms"
  republic_5_year_terms_desc: "It is a type of [heir_selection|e] of a [ShowGovernmentTypeName('republic')], in which the [ruler|e] is selected by [election|e] for an established tenure of 5 years from amongst any estate."
  
+ # Policies & Laws
  federal_state: "Federal Union"
+ 
+ 
+ # Estate
+ puritan_austerity: "Puritain Austerity"
+ puritan_austerity_desc: "The Church of England will be cured of its aflliction of popish hangover. Gone are the vestments, chanting, smells and bells. Gone is the wanton extravagance. We have no need of popery for each is God's own."
+ the_commons: "The Commons"
+ the_commons_desc: "The Commons of England are an integral part of the manor under a grant from the [ShowEstateTypeName('crown_estate')]. The rights in gross and appurtenant of the [ShowEstateTypeName('peasants_estate')] shall be defended so that any free person of England can pasture, piscary, turbary, pannage, estover and common in the soil, as is their right."
  
