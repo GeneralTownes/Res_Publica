@@ -26,9 +26,10 @@ The English Civil War led to major developments in political theory about the na
 
 [h2] Flavour [/h2]
 [list]
+    [*] New Situation: The Restless Republic, with three new events and three new actions
     [*] Protectorate and Commonwealth are two different names and ruler titles
     [*] Two government reforms to represent the Levellers and Diggers, conditional on constitutionalism and peasant rights
-    [*] Constitutional British Republic given a new flag to replace the four-nations flag.
+    [*] Constitutional British Republic given a new flag to replace the four-nations flag
 [/list]
 
 Anyone welcome to use part/all of this mod in their own, and if so credit with a reference appreciated.
