@@ -1,0 +1,3 @@
+﻿restless_republic_price = {
+	stability = 25
+}

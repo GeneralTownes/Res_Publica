@@ -1,0 +1,183 @@
+﻿the_english_revolution = {
+	monthly_spawn_chance = monthly_spawn_chance_unique
+	# hint_tag = hint_the_english_revolution
+	
+	can_start = {
+		OR = {
+			AND = {
+				country_exists = c:ENG
+				c:ENG = { government_type = government_type:republic }
+			}
+			AND = {
+				country_exists = c:GBR
+				c:GBR = { government_type = government_type:republic }
+			}
+		}
+	}
+	
+	can_end = {
+		the_english_revolution_end_requirements = yes
+	}
+	
+	visible = {
+		capital ?= {
+			OR = {
+				region = region:great_britain_region
+				region = region:ireland_region
+			}
+		}
+	}
+	
+	on_start = {
+		every_country = {
+			limit = {
+				NOT = { tag = ENG }
+				NOT = { tag = GBR }
+				exists = capital
+				OR = {
+					capital.region = region:great_britain_region
+					capital.region = region:ireland_region
+				}
+			}
+			trigger_event_non_silently = the_english_revolution.1
+		}
+		every_country = {
+			limit = {
+				OR = {
+					tag = ENG
+					tag = GBR
+				}
+				exists = capital
+			}
+			trigger_event_non_silently = the_english_revolution.2
+		}
+	}
+
+	on_monthly = {
+		custom_tooltip = {
+			text = the_english_revolution_monthly
+			random_list = {
+			
+				# Putney Debates
+				2 = {
+					every_country = {
+						limit = {
+							OR = {
+								tag = ENG
+								tag = GBR
+							}
+							exists = capital
+						}
+						trigger_event_non_silently = the_english_revolution.10
+					}
+				}
+				
+				# Prides Purge
+				2 = {
+					every_country = {
+						limit = {
+							OR = {
+								tag = ENG
+								tag = GBR
+							}
+							exists = capital
+						}
+						trigger_event_non_silently = the_english_revolution.20
+					}
+				}
+				
+				# Humble Petition and Advice
+				1 = {
+					every_country = {
+						limit = {
+							OR = {
+								tag = ENG
+								tag = GBR
+							}
+							exists = capital
+						}
+						trigger_event_non_silently = the_english_revolution.30
+					}
+				}
+				
+				100 = {}
+			}
+		}
+	}
+
+
+	on_ended = {
+		every_country = {
+			limit = {
+				OR = {
+					tag = ENG
+					tag = GBR
+				}
+				exists = capital
+			}
+			trigger_event_non_silently = the_english_revolution.100
+		}
+	}
+
+	tooltip = {
+		
+	}
+
+	map_color = {
+		if = {
+			limit = {
+				OR = {
+					owner ?= c:ENG
+					owner ?= c:GBR
+				}
+			}
+			value = map_ENG
+		}
+		else_if = {
+			limit = {
+				owner ?= {
+					OR = {
+						capital.region = region:great_britain_region
+						capital.region = region:ireland_region
+					}
+				}
+			}
+			value = map_FRA
+		}
+		else = {
+			value = define:NMapColors|DEFAULT_COLOR
+		}
+	}
+	
+	legend_key = { 
+		desc = "ENG"
+		color = map_ENG
+	}
+	legend_key = { 
+		desc = "FRA"
+		color = map_FRA
+	}
+
+	secondary_map_color = {
+		if = {
+			limit = {
+				owner ?= c:ENG
+			}
+			value = map_ENG
+		}
+		else_if = {
+			limit = {
+				owner ?= {
+					is_allied_with = { target =  c:ENG }
+				}
+			}
+			value = map_ENG
+		}
+		else_if = {
+			limit = {
+				owner ?= { is_subject_or_below_of = c:ENG }
+			}
+			value = map_ENG
+		}
+	}
+}

@@ -1,0 +1,233 @@
+﻿noble_land_confiscation = {
+	type = situation
+	
+	ai_tick = monthly
+	ai_tick_frequency = 6
+
+	automation_tick = never
+	automation_tick_frequency = 12
+
+	
+	potential = {
+		scope:actor ?= {
+			OR = {
+				tag = ENG
+				tag = GBR
+			}
+		}
+	}
+
+	allow = {
+		scope:actor ?= {
+			NOT = { has_country_modifier = noble_lands_impounded }
+		}
+	}
+	price = price:restless_republic_price
+
+	cooldown = {
+	}
+
+	select_trigger = {
+		looking_for_a = situation
+		interaction_source_list = {
+			situation:the_english_revolution = {
+				add_to_list = source
+			}
+		}
+		target_flag = recipient
+		name = "choose_situation"
+		column = {
+			data = name
+		}
+		visible = {
+			situation:the_english_revolution = this
+			situation_is_active = yes
+		}
+	}
+
+	effect = {
+		if = {
+			limit = { country_exists = c:ENG }
+			c:ENG = {
+				add_country_modifier = {
+					modifier = noble_lands_impounded
+					years = -1
+					mode = add_and_extend
+				}
+			}
+		}
+		if = {
+			limit = { country_exists = c:GBR }
+			c:GBR = {
+				add_country_modifier = {
+					modifier = noble_lands_impounded
+					years = -1
+					mode = add_and_extend
+				}
+			}
+		}
+	}
+
+	ai_will_do = {
+		add = {
+			value = 100
+			desc = BASE_VALUE
+		}
+	}
+}
+
+instrument_of_government = {
+	type = situation
+	
+	ai_tick = monthly
+	ai_tick_frequency = 6
+
+	automation_tick = never
+	automation_tick_frequency = 12
+
+	
+	potential = {
+		scope:actor ?= {
+			OR = {
+				tag = ENG
+				tag = GBR
+			}
+		}
+	}
+
+	allow = {
+		scope:actor ?= {
+			NOT = { has_country_modifier = instrument_enacted }
+			republican_tradition > 50
+		}
+	}
+	price = price:restless_republic_price
+
+	cooldown = {
+	}
+
+	select_trigger = {
+		looking_for_a = situation
+		interaction_source_list = {
+			situation:the_english_revolution = {
+				add_to_list = source
+			}
+		}
+		target_flag = recipient
+		name = "choose_situation"
+		column = {
+			data = name
+		}
+		visible = {
+			situation:the_english_revolution = this
+			situation_is_active = yes
+		}
+	}
+
+	effect = {
+		if = {
+			limit = { country_exists = c:ENG }
+			c:ENG = {
+				add_country_modifier = {
+					modifier = instrument_enacted
+					years = -1
+					mode = add_and_extend
+				}
+			}
+		}
+		if = {
+			limit = { country_exists = c:GBR }
+			c:GBR = {
+				add_country_modifier = {
+					modifier = instrument_enacted
+					years = -1
+					mode = add_and_extend
+				}
+			}
+		}
+	}
+
+	ai_will_do = {
+		add = {
+			value = 100
+			desc = BASE_VALUE
+		}
+	}
+}
+
+rule_of_the_major_generals = {
+	type = situation
+	
+	ai_tick = monthly
+	ai_tick_frequency = 6
+
+	automation_tick = never
+	automation_tick_frequency = 12
+
+	
+	potential = {
+		scope:actor ?= {
+			OR = {
+				tag = ENG
+				tag = GBR
+			}
+		}
+	}
+
+	allow = {
+		scope:actor ?= {
+			parliament_type = parliament_type:no_parliament
+			NOT = { has_reform = government_reform:the_protectorate }
+		}
+	}
+	price = price:restless_republic_price
+
+	cooldown = {
+	}
+
+	select_trigger = {
+		looking_for_a = situation
+		interaction_source_list = {
+			situation:the_english_revolution = {
+				add_to_list = source
+			}
+		}
+		target_flag = recipient
+		name = "choose_situation"
+		column = {
+			data = name
+		}
+		visible = {
+			situation:the_english_revolution = this
+			situation_is_active = yes
+		}
+	}
+
+	effect = {
+		if = {
+			limit = { country_exists = c:ENG }
+			c:ENG = {
+				unlock_government_reform_effect = {
+					type = the_protectorate
+				}
+				add_reform = government_reform:the_protectorate
+			}
+		}
+		if = {
+			limit = { country_exists = c:GBR }
+			c:GBR = {
+				unlock_government_reform_effect = {
+					type = the_protectorate
+				}
+				add_reform = government_reform:the_protectorate
+			}
+		}
+	}
+
+	ai_will_do = {
+		add = {
+			value = 100
+			desc = BASE_VALUE
+		}
+	}
+}

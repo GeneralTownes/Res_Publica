@@ -1,0 +1,22 @@
+﻿the_english_revolution_end_requirements = {
+	OR = {
+		c:ENG = {
+			exists = capital
+			OR = {
+				republican_tradition > 90
+				has_reform = government_reform:the_protectorate
+				NOT = { government_type = government_type:republic }
+			}
+			stability > 75
+		}
+		c:GBR = {
+			exists = capital
+			OR = {
+				republican_tradition > 90
+				has_reform = government_reform:the_protectorate
+				NOT = { government_type = government_type:republic }
+			}
+			stability > 75
+		}
+	}
+}

@@ -18,10 +18,54 @@
  # Policies & Laws
  federal_state: "Federal Union"
  
- 
- # Estate
+ # Estates
  puritan_austerity: "Puritain Austerity"
  puritan_austerity_desc: "The Church of England will be cured of its aflliction of popish hangover. Gone are the vestments, chanting, smells and bells. Gone is the wanton extravagance. We have no need of popery for each is God's own."
  the_commons: "The Commons"
  the_commons_desc: "The Commons of England are an integral part of the manor under a grant from the [ShowEstateTypeName('crown_estate')]. The rights in gross and appurtenant of the [ShowEstateTypeName('peasants_estate')] shall be defended so that any free person of England can pasture, piscary, turbary, pannage, estover and common in the soil, as is their right."
+ 
+ # Situations
+ the_english_revolution: "The Restless Republic"
+ the_english_revolution_desc: "The monarchy has been abolished and with it a new England can be made. Will a new patrician class rule the [ShowGovernmentTypeName('republic')] with military force alone, or will the people of England finish what was started and finally govern themselves?"
+ noble_land_confiscation: "Confiscate Former Royalists' Lands"
+ noble_land_confiscation_desc: "The lands of disloyal royalist landowners must be confiscated until an impoundment fee is paid to the Commonwealth. This will both raise much needed revenue and tie the paying landowners to our rule, strengthening and stabalising our new regime."
+ instrument_of_government: "Enact the Instrument of Government"
+ instrument_of_government_desc: "The Instrument of Government was the first constitution of the Commonwealth of England, Scotland and Ireland and was also the first codified and written constitution in England. It was drafted by Major-General John Lambert in 1653."
+ rule_of_the_major_generals: "Proclaim the Rule of the Major-Generals"
+ rule_of_the_major_generals_desc: "The Rule of the Major-Generals, was a period of direct military government from August 1655 to January 1657 during Oliver Cromwell's Protectorate. England and Wales were divided into ten regions, each governed by a major-general who answered to the Lord Protector."
+ 
+ # Modifiers
+ STATIC_MODIFIER_NAME_the_republic_is_restless: "The Restless Republic"
+ STATIC_MODIFIER_NAME_noble_lands_impounded: "Noble Lands Impounded"
+ STATIC_MODIFIER_NAME_instrument_enacted: "Instrument of Government"
+ 
+ # Prices
+ restless_republic_price: "The Restless Republic's Price"
+ 
+ 
+ # Events
+ the_english_revolution.1.title: "The Restless Republic"
+ the_english_revolution.1.desc: "'I go from a corruptible, to an incorruptible Crown; where no disturbance can be, no disturbance in the World.' - Charles I, 1649"
+ the_english_revolution.1.a: "The Royall Oake of Brittayne has fallen."
+ the_english_revolution.2.a: "For the Republic!"
+ the_english_revolution.10.title: "The Putney Debates"
+ the_english_revolution.10.desc: "'...for really I thinke that the poorest hee that is in England hath a life to live as the greatest hee...' - Colonel Thomas Rainsborough, 1647"
+ the_english_revolution.10.a: "This talk has gone on long enough, shut it down!"
+ the_english_revolution.10.b: "We shall have an Agreement of the People."
+ the_english_revolution.20.title: "Pride's Purge"
+ the_english_revolution.20.desc: "The Purge before the Regicide."
+ the_english_revolution.20.a: "Bar those MPs hostile to the New Model Army from sitting."
+ the_english_revolution.20.b: "We will not perform a military coup d'état."
+ the_english_revolution.30.title: "The Humble Petition and Advice"
+ the_english_revolution.30.desc: "'I tell you we will cut off his head with the crown upon it!' - Oliver Cromwell, 1648"
+ the_english_revolution.30.a: "To the victor goes the Crown."
+ the_english_revolution.30.b: "Away with this bauble!"
+ the_english_revolution.100.title: "The Settled Republic"
+ the_english_revolution.100.desc: "Sir, I thinke itt's cleare, that every man that is to live under a Governement ought first by his owne consent to putt himself under that Governement' - Colonel Thomas Rainsborough, 1647"
+ the_english_revolution.100.a: "England, a Commonwealth and free..." 
+ 
+ the_english_revolution_historical_info: "The Commonwealth of England, enlarged in 1653 as the Commonwealth of England, Scotland and Ireland, was the political structure during the period from 1649 to 1660 when the Kingdom of England was dissolved into a republic after the end of the Second English Civil War and the trial and execution of Charles I. The republic's existence was declared through 'An Act declaring England to be a Commonwealth', adopted by the Rump Parliament on 19 May 1649. Power in the early Commonwealth was vested primarily in the Parliament and a Council of State. During the period, fighting continued, particularly in Ireland and Scotland, between the parliamentary forces and those opposed to them, in the Cromwellian conquest of Ireland and the Anglo-Scottish war of 1650–1652."
+ the_putney_debates_historical_info: "The Putney Debates, which took place from 28 October to 8 November 1647, were a series of discussions over the political settlement that should follow Parliament's victory over Charles I in the First English Civil War. The main participants were senior officers of the New Model Army who favoured retaining Charles within the framework of a constitutional monarchy, and radicals such as the Levellers who sought more sweeping changes, including one man, one vote and freedom of conscience, particularly in religion."
+ prides_purge_historical_info: "Pride's Purge is the name commonly given to an event that took place on 6 December 1648, when soldiers prevented members of Parliament considered hostile to the New Model Army from entering the House of Commons of England. Despite defeat in the First English Civil War, Charles I retained significant political power. This allowed him to create an alliance with Scots Covenanters and Parliamentarian moderates to restore him to the English throne. The result was the 1648 Second English Civil War, in which he was defeated once again. Convinced only his removal could end the conflict, senior commanders of the New Model Army took control of London on 5 December. The next day, soldiers commanded by Colonel Thomas Pride forcibly excluded from the Long Parliament those MPs viewed as their opponents, and arrested 45. The purge cleared the way for the execution of Charles in January 1649, and establishment of the Protectorate in 1653; it is considered the only recorded military coup d'état in English history."
+ the_humble_petition_historical_info: "On 23 February 1657, during a sitting of the Second Protectorate Parliament Sir Christopher Packe (Member of Parliament and former Lord Mayor of London) presented the Lord Protector Oliver Cromwell with a remonstrance which became known as the Humble Petition and Advice. The intention of the Humble Petition and Advice was to offer a hereditary monarchy to Oliver Cromwell, to assert Parliament's control over new taxation, to provide an independent council to advise the king, to assure the holding of 'Triennial' meetings (every three years) of Parliament, and to reduce the size of the standing army in order to save money, amongst other things. These limited, rather than increased, Cromwell's power. However, the real sticking point for many radicals were Clauses 10 through 12; these placed severe restrictions on sects like Fifth Monarchists and Baptists, while seeking to re-establish a national church structured along Presbyterian lines."
  

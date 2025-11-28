@@ -1,0 +1,173 @@
+﻿namespace = the_english_revolution
+
+######################################
+# The start of the situation events
+######################################
+
+# Information to everyone!
+the_english_revolution.1 = {
+	type = country_event
+	category = situation_event	
+
+	title = the_english_revolution.1.title
+	desc = the_english_revolution.1.desc
+	historical_info = the_english_revolution_historical_info
+
+	image = "gfx/interface/illustrations/situation/the_english_revolution.dds"
+	
+	
+	option = {
+		name = the_english_revolution.1.a
+	}
+}
+
+# England notifications!
+the_english_revolution.2 = {
+	type = country_event
+	category = situation_event	
+
+	title = the_english_revolution.1.title
+	desc = the_english_revolution.1.desc
+	historical_info = the_english_revolution_historical_info
+
+	image = "gfx/interface/illustrations/situation/the_english_revolution.dds"
+	
+	
+	option = {
+		name = the_english_revolution.2.a
+		
+		add_country_modifier = {
+			modifier = the_republic_is_restless
+			years = -1
+			mode = add_and_extend
+		}
+	}
+}
+
+
+######################################
+# Monthly Tick events
+######################################
+
+# The Putney Debates
+the_english_revolution.10 = {
+	type = country_event
+	category = situation_event	
+
+	title = the_english_revolution.10.title
+	desc = the_english_revolution.10.desc
+	historical_info = the_putney_debates_historical_info
+	
+	image = "gfx/interface/illustrations/event/backgrounds/the_putney_debates.dds"
+	
+	
+	option = {
+		name = the_english_revolution.10.a
+		historical_option = yes
+		
+		add_stability = 2.5
+		add_republican_tradition = -5
+	}
+	
+	option = {
+		name = the_english_revolution.10.b
+		
+		add_stability = -2.5
+		add_republican_tradition = 5
+	}
+
+}
+
+# Prides Purge
+the_english_revolution.20 = {
+	type = country_event
+	category = situation_event	
+
+	title = the_english_revolution.20.title
+	desc = the_english_revolution.20.desc
+	historical_info = prides_purge_historical_info
+	
+	image = "gfx/interface/illustrations/event/backgrounds/prides_purge.dds"
+
+	
+	option = {
+		name = the_english_revolution.20.a
+		historical_option = yes
+		
+		add_stability = 2.5
+		add_republican_tradition = -5
+	}
+	
+	option = {
+		name = the_english_revolution.20.b
+		
+		add_stability = -2.5
+		add_republican_tradition = 5
+	}
+}
+
+# Humble Petition and Advice
+the_english_revolution.30 = {
+	type = country_event
+	category = situation_event	
+
+	title = the_english_revolution.30.title
+	desc = the_english_revolution.30.desc
+	historical_info = the_humble_petition_historical_info
+	
+	image = "gfx/interface/illustrations/event/backgrounds/the_humble_petition.dds"
+
+	
+	option = {
+		name = the_english_revolution.30.a
+		
+		change_government_type = government_type:monarchy
+		add_stability = 200
+		hidden_effect = {
+			add_legitimacy = 100
+			add_legitimacy = -75
+		}
+	}
+	
+	option = {
+		name = the_english_revolution.30.b
+		historical_option = yes
+		
+		add_republican_tradition = 5
+	}
+}
+
+######################################
+# Ending events
+######################################
+
+the_english_revolution.100 = {
+	type = country_event
+	category = situation_event	
+
+	title = the_english_revolution.100.title
+	desc = the_english_revolution.100.desc
+	historical_info = the_english_revolution_historical_info
+	
+	image = "gfx/interface/illustrations/situation/the_english_revolution.dds"
+
+	
+	option = {
+		name = the_english_revolution.100.a
+		
+		
+		remove_country_modifier = the_republic_is_restless
+		if = {
+			limit = {
+				has_country_modifier = noble_lands_impounded
+			}
+			remove_country_modifier = noble_lands_impounded
+		}
+		if = {
+			limit = {
+				has_country_modifier = instrument_enacted
+			}
+			remove_country_modifier = instrument_enacted
+		}
+	}
+}
