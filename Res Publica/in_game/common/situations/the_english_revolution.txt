@@ -131,7 +131,7 @@
 					owner ?= c:GBR
 				}
 			}
-			value = map_ENG
+			value = gov_republic
 		}
 		else_if = {
 			limit = {
@@ -140,9 +140,10 @@
 						capital.region = region:great_britain_region
 						capital.region = region:ireland_region
 					}
+					NOT = { is_subject_or_below_of = c:ENG }
 				}
 			}
-			value = map_FRA
+			value = gov_monarchy
 		}
 		else = {
 			value = define:NMapColors|DEFAULT_COLOR
@@ -150,12 +151,12 @@
 	}
 	
 	legend_key = { 
-		desc = "ENG"
-		color = map_ENG
+		desc = "TER_the_republic"
+		color = gov_republic
 	}
 	legend_key = { 
-		desc = "FRA"
-		color = map_FRA
+		desc = "TER_neighbours"
+		color = gov_monarchy
 	}
 
 	secondary_map_color = {
@@ -163,7 +164,7 @@
 			limit = {
 				owner ?= c:ENG
 			}
-			value = map_ENG
+			value = gov_republic
 		}
 		else_if = {
 			limit = {
@@ -171,13 +172,13 @@
 					is_allied_with = { target =  c:ENG }
 				}
 			}
-			value = map_ENG
+			value = gov_republic
 		}
 		else_if = {
 			limit = {
 				owner ?= { is_subject_or_below_of = c:ENG }
 			}
-			value = map_ENG
+			value = gov_republic
 		}
 	}
 }

@@ -6,6 +6,9 @@ the_republic_is_restless = {
 	monthly_republican_tradition = -0.25
 	stability_investment = -0.1
 	pop_join_rebel_threshold = 0.05
+	pop_leave_rebels_threshold = 0.05
+	monthly_war_exhaustion = 0.05
+	global_monthly_prosperity = -0.001
 }
 noble_lands_impounded = {
 	game_data = {
