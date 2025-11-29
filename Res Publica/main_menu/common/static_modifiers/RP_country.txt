@@ -3,7 +3,7 @@ the_republic_is_restless = {
 		category = country
 	}
 	
-	monthly_republican_tradition = -0.25
+	monthly_republican_tradition = -0.5
 	stability_investment = -0.1
 	pop_join_rebel_threshold = 0.05
 	pop_leave_rebels_threshold = 0.05
@@ -18,8 +18,7 @@ noble_lands_impounded = {
 	nobles_estate_max_tax = 0.1
 	nobles_estate_target_satisfaction = large_privilege_target_satisfaction_penalty
 	
-	monthly_republican_tradition = 0.1
-	stability_investment = 0.05
+	stability_investment = 0.2
 }
 instrument_enacted = {
 	game_data = {
@@ -29,5 +28,5 @@ instrument_enacted = {
 	nobles_estate_target_satisfaction = large_privilege_target_satisfaction_penalty
 	
 	stability_cost = -0.25
-	stability_investment = 0.05
+	stability_investment = 0.1
 }
