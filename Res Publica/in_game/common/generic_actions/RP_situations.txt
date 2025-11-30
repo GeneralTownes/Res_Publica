@@ -14,6 +14,7 @@
 				tag = ENG
 				tag = GBR
 			}
+			exists = capital
 		}
 	}
 
@@ -52,7 +53,7 @@
 				add_country_modifier = {
 					modifier = noble_lands_impounded
 					years = -1
-					mode = add_and_extend
+					mode = replace
 				}
 			}
 		}
@@ -62,7 +63,7 @@
 				add_country_modifier = {
 					modifier = noble_lands_impounded
 					years = -1
-					mode = add_and_extend
+					mode = replace
 				}
 			}
 		}
@@ -92,6 +93,7 @@ instrument_of_government = {
 				tag = ENG
 				tag = GBR
 			}
+			exists = capital
 		}
 	}
 
@@ -131,7 +133,7 @@ instrument_of_government = {
 				add_country_modifier = {
 					modifier = instrument_enacted
 					years = -1
-					mode = add_and_extend
+					mode = replace
 				}
 			}
 		}
@@ -141,7 +143,7 @@ instrument_of_government = {
 				add_country_modifier = {
 					modifier = instrument_enacted
 					years = -1
-					mode = add_and_extend
+					mode = replace
 				}
 			}
 		}
@@ -171,6 +173,7 @@ rule_of_the_major_generals = {
 				tag = ENG
 				tag = GBR
 			}
+			exists = capital
 		}
 	}
 
