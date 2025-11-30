@@ -27,6 +27,6 @@ instrument_enacted = {
 	
 	nobles_estate_target_satisfaction = large_privilege_target_satisfaction_penalty
 	
-	stability_cost = -0.25
+	stability_cost = -0.1
 	stability_investment = 0.1
 }
