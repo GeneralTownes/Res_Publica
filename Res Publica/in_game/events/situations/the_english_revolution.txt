@@ -65,14 +65,13 @@ the_english_revolution.10 = {
 		name = the_english_revolution.10.a
 		historical_option = yes
 		
-		add_stability = 2.5
-		add_republican_tradition = -5
+		add_stability = 10
+		add_republican_tradition = -10
 	}
 	
 	option = {
 		name = the_english_revolution.10.b
 		
-		add_stability = -2.5
 		add_republican_tradition = 5
 	}
 
@@ -94,14 +93,13 @@ the_english_revolution.20 = {
 		name = the_english_revolution.20.a
 		historical_option = yes
 		
-		add_stability = 2.5
-		add_republican_tradition = -5
+		add_stability = 20
+		add_republican_tradition = -25
 	}
 	
 	option = {
 		name = the_english_revolution.20.b
 		
-		add_stability = -2.5
 		add_republican_tradition = 5
 	}
 }
