@@ -32,6 +32,16 @@ The English Civil War led to major developments in political theory about the na
     [*] Constitutional British Republic given a new flag to replace the four-nations flag
 [/list]
 
+[h3] QoL [/h3]
+The following alerts have been disabled:
+[list]
+    [*] Underage Heir
+    [*] Buildings missing employees
+    [*] RGOs missing employees
+    [*] Weather notifications
+    [*] Possible control groups
+[/list]
+
 Anyone welcome to use part/all of this mod in their own, and if so credit with a reference appreciated.
 
 [img] https://upload.wikimedia.org/wikipedia/commons/7/7c/Cromwell_cutting_down_the_Royal_Oak%2C_1649.jpg [/img]
