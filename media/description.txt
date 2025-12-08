@@ -15,6 +15,7 @@ The English Civil War led to major developments in political theory about the na
     [*] Authoritarian republic gives more +5 max control
     [*] Merchant Republic reform can be revoked with >50% republic power and <33% burgher power
     [*] Development growth from develop province cabinet action reduced to 20% of original effect
+    [*] Population requirements to rank up more than doubled, and prestige requirements decreased
 [/list]
 
 [h2] New Mechanics [/h2]

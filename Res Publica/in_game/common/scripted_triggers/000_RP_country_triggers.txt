@@ -1,0 +1,40 @@
+﻿can_upgrade_country_rank_empire = {
+	is_great_power = yes
+	trigger_if = {
+		limit = { 
+			country_exists = c:PAP
+			religion = religion:catholic 
+		}
+		c:PAP = {
+			opinion = { target = root value > 100 }
+		}
+	}
+	OR = {
+		total_population > 25000
+		total_true_faith_population > 20000
+		total_accepted_culture_population > 15000
+	}
+	prestige > 40
+	is_subject = no
+}
+can_upgrade_country_rank_kingdom = {
+	OR = {
+		total_population > 5000
+		total_true_faith_population > 4000
+		total_accepted_culture_population > 3000
+	}
+	prestige > 20
+	is_subject = no
+}
+can_upgrade_country_rank_duchy = {
+	OR = {
+		total_population > 500
+		total_true_faith_population > 400
+		total_accepted_culture_population > 300
+	}
+	prestige > 10
+}
+can_upgrade_country_rank = {
+	#Purposefully ignores the block modifiers
+	can_upgrade_country_$rank$ = yes
+}
