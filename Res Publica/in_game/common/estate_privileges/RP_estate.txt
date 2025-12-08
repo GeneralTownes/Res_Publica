@@ -21,7 +21,7 @@ puritan_austerity = {
 	}
 
 	country_modifier = {
-		estate_enrichment = -0.15
+		estate_enrichment = -0.1
 		global_estate_target_satisfaction = small_permanent_target_satisfaction_penalty
 		
 		global_clergy_estate_power = -0.25
