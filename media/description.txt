@@ -37,6 +37,7 @@ The English Civil War led to major developments in political theory about the na
 The following alerts have been disabled:
 [list]
     [*] Welcome
+    [*] Max diplomats
     [*] Underage Heir
     [*] Buildings missing employees
     [*] RGOs missing employees

@@ -5335,25 +5335,25 @@ types AlertManager {
 		# We have max Diplomats available
 		###################################
 
-		alert_banner = {
-			name = "has_max_diplomats_available"
-
-			action_tooltip = {
-				click_type = left
-				title = "ALERT_CTA_LEFT_CLICK"
-				using = snd_UI_alert_openAndCycle
-				on_action = "[OpenLateralView('diplomacy_macrobuilder')]"
-			}
-
-			using = green_alert
-
-			blockoverride "icon_texture" {
-				texture = "gfx/interface/icons/alerts_icons/diplomacy.dds"
-			}
-
-			onmousehierarchyenter = "[SetHighlightedTab('diplomacy_group')]"
-			onmousehierarchyleave = "[ResetHighlightedTab]"
-		}
+		#alert_banner = {
+		#	name = "has_max_diplomats_available"
+		#
+		#	action_tooltip = {
+		#		click_type = left
+		#		title = "ALERT_CTA_LEFT_CLICK"
+		#		using = snd_UI_alert_openAndCycle
+		#		on_action = "[OpenLateralView('diplomacy_macrobuilder')]"
+		#	}
+		#
+		#	using = green_alert
+		#
+		#	blockoverride "icon_texture" {
+		#		texture = "gfx/interface/icons/alerts_icons/diplomacy.dds"
+		#	}
+		#
+		#	onmousehierarchyenter = "[SetHighlightedTab('diplomacy_group')]"
+		#	onmousehierarchyleave = "[ResetHighlightedTab]"
+		#}
 
 		###################################
 		# We have Religious Aspect available
