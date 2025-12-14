@@ -58,3 +58,29 @@ the_commons = {
 		global_monthly_food_modifier = -0.1
 	}
 }
+
+provincial_assemblies = { 
+	estate = peasants_estate
+	
+	potential = {
+		government_type = government_type:republic
+	}
+	allow = {
+		NOT = { parliament_type = parliament_type:no_parliament }
+		NOT = { parliament_type = parliament_type:autocratic_parliament }
+	}
+	can_revoke = {
+		"estate_power(estate_type:crown_estate)" > "estate_power(estate_type:peasants_estate)"
+	}
+
+	country_modifier = {
+		peasants_estate_target_satisfaction = medium_privilege_target_satisfaction
+		global_peasants_estate_power = 2
+		monthly_towards_decentralization = societal_value_monthly_move
+		monthly_towards_liberalism = societal_value_monthly_move
+		
+		monthly_republican_tradition = 0.1
+		peasants_estate_max_tax = -0.05
+		global_monthly_development = 0.0005
+	}
+}
