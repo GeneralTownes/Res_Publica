@@ -1,4 +1,15 @@
-﻿popular_sovereignty_advance = {
+﻿republican_virtue_advance = {
+	age = age_2_renaissance
+	government = republic
+	requires = renaissance_thought
+	
+	court_spending_cost = -0.01
+	monthly_republican_tradition = 0.1
+	estate_enrichment = -0.05
+	parliament_request_issue_support_needed = 0.1
+}
+
+popular_sovereignty_advance = {
 	age = age_5_absolutism
 	government = republic
 	requires = the_constitution

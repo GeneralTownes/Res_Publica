@@ -2,6 +2,8 @@
  # Advances
  popular_sovereignty_advance: "Popular Sovereignty"
  popular_sovereignty_advance_desc: "Popular sovereignty is the political principle that the legitimacy to govern derives from the consent of the governed, who are the source of all political power."
+ republican_virtue_advance: "Republican Virtue"
+ republican_virtue_advance_desc: "Republican virtue, also known as civic virtue, is the idea that the success and stability of a republic depend on the selfless commitment of its citizens to the common good and the public interest."
  
  # Government Reforms
  constitutional_republic: "Constitutional Republic"
@@ -24,7 +26,7 @@
  the_commons: "The Commons"
  the_commons_desc: "The Commons of England are an integral part of the manor under a grant from the [ShowEstateTypeName('crown_estate')]. The rights in gross and appurtenant of the [ShowEstateTypeName('peasants_estate')] shall be defended so that any free person of England can pasture, piscary, turbary, pannage, estover and common in the soil, as is their right."
  provincial_assemblies: "Provincial Assemblies"
- provincial_assemblies_desc: "The [ShowEstateTypeName('peasants_estate')] of our [ShowGovernmentTypeName('republic')] live distinct and varied lives across our many provinces. This reality is recognised by constitutionally recognised provincial assemblies."
+ provincial_assemblies_desc: "The [ShowEstateTypeName('peasants_estate')] of our [ShowGovernmentTypeName('republic')] live distinct and varied lives across our many provinces. This reality is recognised by constitutionally legitimised provincial assemblies."
  
  # Situations
  the_english_revolution: "The Restless Republic"
