@@ -12,6 +12,7 @@
 		monthly_republican_tradition = 0.1
 		stability_investment = cabinet_stability_investment
 		country_cabinet_efficiency = 0.25
+		revoke_privilege_cost_modifier = -0.4
 		
 		monthly_towards_liberalism = societal_value_large_monthly_move
 		monthly_towards_free_subjects = societal_value_monthly_move
