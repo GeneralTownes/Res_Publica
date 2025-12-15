@@ -1,0 +1,55 @@
+﻿namespace = culture_religion_events
+culture_religion_events.2 = {
+	type = country_event
+	title = culture_religion_events.2.title
+	desc = culture_religion_events.2.desc
+	illustration_tags = {
+		10 = happy
+		10 = exterior
+	}	
+	trigger = {
+		trigger_if = {
+			limit = {
+				exists = scope:old_ruler
+				exists = scope:new_ruler
+			}
+			NOT = { scope:old_ruler = scope:new_ruler }
+		}
+		ruler ?= { 
+			culture ?= {
+				exists = this
+				NOR = {
+					this = root.culture
+					is_primary_or_accepted_in = root
+					reverse_cultural_view = { target = root.culture value = kindred }
+				}
+			}
+		}
+		NOT = {
+			tag = PAP
+		}
+	}
+
+	immediate = {
+		ruler = { save_scope_as = target_ruler }
+		event_illustration_estate_effect = { foreground = estate_type:peasants_estate background = estate_type:peasants_estate }
+	}
+
+	option = {
+		name = culture_religion_events.2.a
+		custom_tooltip = {
+			text = culture_religion_events.2.a.tt
+			every_known_country = {
+				limit = {
+					culture = root.ruler.culture
+				}
+				add_opinion = { target = root modifier = opinion_ruler_of_our_culture }
+			}
+		}
+		add_legitimacy = legitimacy_mild_penalty
+	}
+	option = {
+		name = culture_religion_events.2.b
+		add_stability = stability_mild_penalty
+	}
+}
