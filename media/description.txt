@@ -18,6 +18,7 @@ The English Civil War led to major developments in political theory about the na
     [*] Merchant Republic reform can be revoked with >50% republic power and <33% burgher power
     [*] Development growth from develop province cabinet action reduced to 20% of original effect
     [*] Population requirements to rank up more than doubled, and prestige requirements decreased
+    [*] Non-accepted culture ruler event won't fire if culture is accepted (in addition to vanilla conditions of not firing if primary or kindred view)
 [/list]
 
 [h2] New Mechanics [/h2]
