@@ -31,3 +31,38 @@
 	}
 	trigger_else = { always = no }
 }
+
+portrait_imperial_trigger = {
+	trigger_if = { # Spouse
+		limit = {
+			exists = this
+			is_ruler = no
+			is_married = yes
+		}
+		any_spouse ?= {
+			is_alive = yes
+			is_ruler = yes
+			any_ruling_countries = {
+				OR = {
+					country_rank_level = 4
+					is_leader_of_international_organization = international_organization:hre
+				}
+			}
+		}
+		portrait_clothing_trigger = { CULTURE_FLAG = $CULTURE_GFX$ }
+	}
+	trigger_else_if = { # Ruler
+		limit = {
+			exists = this
+		}
+		any_ruling_countries = {
+			OR = {
+				country_rank_level = 4
+				is_leader_of_international_organization = international_organization:hre
+			}
+			government_type = government_type:monarchy
+		}
+		portrait_clothing_trigger = { CULTURE_FLAG = $CULTURE_GFX$ }
+	}
+	trigger_else = { always = no }
+}
