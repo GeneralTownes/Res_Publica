@@ -6,7 +6,7 @@ The English Civil War led to major developments in political theory about the na
     [*] Cost to change government type increased to 150 stability & 75 legitimacy with value requirement reduced to 75
     [*] Can now change government type if in a union
     [*] Stability increases/decreases legitimacy and prosperity
-    [*] Prosperity decays and taken off building effects
+    [*] Prosperity taken off / nerfed building effects
     [*] Republican tradition increases revoke cost, increases estate happiness, and decays
     [*] No republican tradition now gives +50% stab cost max (rather than +200%)
     [*] Centralised & Decentralised bureaucracy laws adjusted
