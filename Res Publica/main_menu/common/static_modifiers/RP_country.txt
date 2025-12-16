@@ -1,3 +1,12 @@
+parliament_amend_constitution = {
+	game_data = {
+		category = country
+	}
+	remove_government_reform_cost_modifier = -0.5
+	revoke_privilege_cost_modifier = -0.1
+}
+
+# The Restless Republic
 the_republic_is_restless = {
 	game_data = {
 		category = country

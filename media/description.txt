@@ -28,6 +28,7 @@ The English Civil War led to major developments in political theory about the na
     [*] Popular Sovereignty advance in Age of Absolutism after The Constitution
     [*] Constitutional Republic government reform blocks ruler dynasty from cabinet and military
     [*] Constitutional republic succession law that prevents royal marriages and scores on merit alone
+    [*] Parliament issue for republics that gives +10 republican tradition and reduces cost of revoking privileges or changing government reforms
 [/list]
 
 [h2] Flavour [/h2]

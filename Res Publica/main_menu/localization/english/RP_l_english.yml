@@ -20,6 +20,10 @@
  # Policies & Laws
  federal_state: "Federal Union"
  
+ # Parliament
+ support_republic_issue: "Amend Constitution"
+ support_republic_issue_desc: "Asking [Player.GetGovernment.GetParliament.GetName] to debate the values of our [ShowGovernmentTypeName('republic')] and amend our constitution. This effect will stack."
+ 
  # Estates
  puritan_austerity: "Puritain Austerity"
  puritan_austerity_desc: "The Church of England will be cured of its aflliction of popish hangover. Gone are the vestments, chanting, smells and bells. Gone is the wanton extravagance. We have no need of popery for each is God's own."
@@ -39,6 +43,7 @@
  rule_of_the_major_generals_desc: "The Rule of the Major-Generals, was a period of direct military government from August 1655 to January 1657 during Oliver Cromwell's Protectorate. England and Wales were divided into ten regions, each governed by a major-general who answered to the Lord Protector."
  
  # Modifiers
+ STATIC_MODIFIER_NAME_parliament_amend_constitution: "Amending the Constitution"
  STATIC_MODIFIER_NAME_the_republic_is_restless: "The Restless Republic"
  STATIC_MODIFIER_NAME_noble_lands_impounded: "Noble Lands Impounded"
  STATIC_MODIFIER_NAME_instrument_enacted: "Instrument of Government"
