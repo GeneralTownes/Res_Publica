@@ -13,6 +13,7 @@ The English Civil War led to major developments in political theory about the na
     [*] Parliament estate distribution law gives +0.1 legitimacy / republican tradition
     [*] No Parliament really is no parliament, with added crown power and less happiness loss
     [*] House of Parliament and Supreme Court both give +0.1 republican tradition
+    [*] Liberalism societal value gives +0.1 republican tradition at max
     [*] Adjustments to administration system laws
     [*] Authoritarian republic gives more +5 max control
     [*] Merchant Republic reform can be revoked with >50% republic power and <33% burgher power
