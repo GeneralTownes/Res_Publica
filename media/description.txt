@@ -1,6 +1,8 @@
 [h1] Res Publica [/h1]
 The English Civil War led to major developments in political theory about the nature of sovereignty, freedom, and self-government. The Levellers came to prominence at the end of the First English Civil War (1642–1646) and were committed to popular sovereignty, extended suffrage, equality before the law and religious tolerance with their ideas were presented in their manifesto "Agreement of the People". A group known as the True Levellers in 1649, in reference to their split from the Levellers, and later as Diggers because of their attempts to farm on common land, tried (by "levelling" land) to reform the existing social order with an agrarian lifestyle based on their ideas for the creation of small, egalitarian rural communities. The establishment of the Protectorate ended the nascent experiment with popular sovereignty, paving the way for the return of monarchy. What route will the people of England and Britain go now? 
 
+Res Publica ensures that significant effort across the ages must be invested to build the institutions (laws, values, buildings and estate privileges) that are required to maintain a republic (high republican tradition). This effect is amplified by the added decay which (as a base) requires significantly higher percentages of investment in the republican court to maintain high tradition. As a general guide monarchies are more capable at expanding territorially i.e with fiefdoms and personal unions, and republics are more capable at expanding economically i.e slightly better development growth, trade and advances.
+
 [h2] Adjustments [/h2]
 [list]
     [*] Cost to change government type increased to 150 stability & 75 legitimacy with value requirement reduced to 75
