@@ -82,6 +82,12 @@ support_republic_issue = {
 	player_automated_category = parliament
 
 
+	potential = {
+		scope:actor = {
+			government_type = government_type:republic
+		}
+	}
+
 	allow = {
 		scope:actor = {	
 			is_active_parliament = yes
