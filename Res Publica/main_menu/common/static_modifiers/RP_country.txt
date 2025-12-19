@@ -2,6 +2,7 @@ parliament_amend_constitution = {
 	game_data = {
 		category = country
 	}
+	
 	remove_government_reform_cost_modifier = -0.5
 	revoke_privilege_cost_modifier = -0.1
 }

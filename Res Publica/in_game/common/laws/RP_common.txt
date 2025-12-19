@@ -1,4 +1,4 @@
-﻿administrative_system = {
+﻿REPLACE:administrative_system = { # INJECT doesn't work, instead creates two (correct) copies
 
 	law_category = administrative
 	unique = yes
@@ -317,7 +317,7 @@
 	}
 }
 
-bureaucracy_law = {
+REPLACE:bureaucracy_law = {
 	law_category = administrative
 	centralized_bureaucracy_policy = {
 		country_modifier = {

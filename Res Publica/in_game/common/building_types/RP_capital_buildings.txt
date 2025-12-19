@@ -1,0 +1,11 @@
+﻿INJECT:house_of_parliament = {
+	capital_country_modifier = {
+		monthly_republican_tradition = 0.1
+	}
+}
+
+INJECT:supreme_court = {
+	capital_country_modifier = {
+		monthly_republican_tradition = 0.1
+	}
+}

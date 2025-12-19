@@ -6,7 +6,6 @@ The English Civil War led to major developments in political theory about the na
     [*] Cost to change government type increased to 150 stability & 75 legitimacy with value requirement reduced to 75
     [*] Can now change government type if in a union
     [*] Stability increases/decreases legitimacy and prosperity
-    [*] Prosperity taken off / nerfed building effects
     [*] Republican tradition increases revoke cost, increases estate happiness, and decays
     [*] No republican tradition now gives +50% stab cost max (rather than +200%)
     [*] Centralised & Decentralised bureaucracy laws adjusted
@@ -14,6 +13,7 @@ The English Civil War led to major developments in political theory about the na
     [*] No Parliament really is no parliament, with added crown power and less happiness loss
     [*] House of Parliament and Supreme Court both give +0.1 republican tradition
     [*] Liberalism societal value gives +0.1 republican tradition at max
+    [*] Individualism societal value gives +25% artist skill (and no estate satisfaction loss) at max
     [*] Adjustments to administration system laws
     [*] Authoritarianism republic foundation law gives +5 max control
     [*] Merchant Republic reform can be revoked with >50% republic power and <33% burgher power

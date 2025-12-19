@@ -1,4 +1,4 @@
-﻿distribution_of_power_law = {
+﻿REPLACE:distribution_of_power_law = { #INJECT for english parliament change doesn't work
 	law_category = estates
 	potential = {
 	}

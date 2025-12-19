@@ -1,0 +1,14 @@
+﻿INJECT:no_parliament = {
+	modifier = {
+		parliament_abolished = yes
+		global_crown_estate_power = 0.50
+		global_estate_target_satisfaction = medium_permanent_target_satisfaction
+	}
+}
+
+INJECT:assembly = {
+	modifier = {
+		burghers_estate_can_participate_in_parliament = yes
+		burghers_estate_agenda_impact = -0.33
+	}
+}

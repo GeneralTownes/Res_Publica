@@ -1,0 +1,3 @@
+﻿INJECT:republic = {
+	heir_selection = republic_5_year_terms}
+}

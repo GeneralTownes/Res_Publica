@@ -1,0 +1,30 @@
+puritan_austerity = { 
+	estate = clergy_estate
+	
+	potential = {
+		OR = {
+			has_or_had_tag = ENG
+			has_or_had_tag = GBR
+		}
+	}
+	allow = {
+		religion ?= {
+			group ?= religion_group:christian
+		}
+		NOT = { 
+			OR = {
+				religion = religion:catholic
+				religion = religion:orthodox
+				religion = religion:miaphysite
+			}
+		}
+	}
+
+	country_modifier = {
+		estate_enrichment = -0.1
+		global_estate_target_satisfaction = small_permanent_target_satisfaction_penalty
+		
+		global_clergy_estate_power = -0.25
+	}
+}
+

@@ -1,0 +1,21 @@
+﻿INJECT:stability_impact = {
+	global_monthly_prosperity = 0.001
+	
+	monthly_legitimacy = 0.1
+	monthly_tribal_cohesion = 0.1
+	monthly_devotion = 0.1
+	monthly_horde_unity = 0.1
+	monthly_republican_tradition = 0.1
+}
+
+INJECT:high_republican_tradition = {
+	global_estate_target_satisfaction = medium_permanent_target_satisfaction
+	revoke_privilege_cost_modifier = 0.4
+	
+	monthly_republican_tradition = -1
+	# to simulate decay of RT
+}
+
+INJECT:low_republican_tradition = {
+	stability_cost = -1.5 # To counter the 2.0 in vanilla, resulting in 0.5 net
+}

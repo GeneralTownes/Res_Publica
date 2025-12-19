@@ -1,4 +1,4 @@
-﻿republican_foundation_law = {
+﻿REPLACE:republican_foundation_law = { # INJECT for authoritarianism doesn't work
 	law_category = administrative
 
 	law_gov_group = republic 

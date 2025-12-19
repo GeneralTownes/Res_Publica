@@ -1,3 +1,9 @@
-﻿restless_republic_price = {
+﻿REPLACE:change_government_type_price = {
+	stability = 150
+	legitimacy = 75
+}
+
+# Res Publica additions
+restless_republic_price = {
 	stability = 25
 }

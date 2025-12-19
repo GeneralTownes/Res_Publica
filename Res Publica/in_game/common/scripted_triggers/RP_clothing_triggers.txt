@@ -1,4 +1,4 @@
-﻿portrait_royalty_trigger = {
+﻿REPLACE:portrait_royalty_trigger = {
 	trigger_if = { # Spouse
 		limit = { 
 			exists = this
@@ -32,7 +32,7 @@
 	trigger_else = { always = no }
 }
 
-portrait_imperial_trigger = {
+REPLACE:portrait_imperial_trigger = {
 	trigger_if = { # Spouse
 		limit = {
 			exists = this
