@@ -64,8 +64,8 @@ an_agreement_of_the_people = {
 	
 	potential = {
 		OR = {
-			tag = ENG
-			tag = GBR
+			has_or_had_tag = ENG
+			has_or_had_tag = GBR
 			culture = culture:english
 		}
 	}
@@ -102,8 +102,8 @@ levelling_the_land = {
 	
 	potential = {
 		OR = {
-			tag = ENG
-			tag = GBR
+			has_or_had_tag = ENG
+			has_or_had_tag = GBR
 			culture = culture:english
 		}
 	}
