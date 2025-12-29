@@ -22,7 +22,7 @@ Res Publica ensures that significant effort across the ages must be invested to 
     [*] Development growth from develop province cabinet action reduced to 20% of original effect
     [*] Population requirements to rank up more than doubled, and prestige requirements decreased
     [*] Non-accepted culture ruler event won't fire if culture is accepted (in addition to vanilla conditions of not firing if primary or kindred view)
-    [*] Conditions for Revolution disaster adjusted so more likely for absolutist monarchies and less likely for republics (unless absolutist)
+    [*] Conditions for Revolution disaster adjusted so will occur for absolutist monarchies and not for republics (unless very absolutist)
 [/list]
 
 [h2] New Mechanics [/h2]
