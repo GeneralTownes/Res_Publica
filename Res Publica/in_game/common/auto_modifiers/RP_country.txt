@@ -1,4 +1,8 @@
-﻿INJECT:stability_impact = {
+﻿INJECT:country_base_values = {
+	global_peasant_enfranchisment = -0.25
+}
+
+INJECT:stability_impact = {
 	global_monthly_prosperity = 0.001
 	
 	monthly_legitimacy = 0.1

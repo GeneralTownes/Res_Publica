@@ -10,6 +10,7 @@ Res Publica ensures that significant effort across the ages must be invested to 
     [*] Stability increases/decreases legitimacy and prosperity
     [*] Republican tradition increases revoke cost, increases estate happiness, and decays
     [*] No republican tradition now gives +50% stab cost max (rather than +200%)
+    [*] No base peasant enfranchisement
     [*] Centralised & Decentralised bureaucracy laws adjusted
     [*] Parliament estate distribution law gives +0.1 legitimacy / republican tradition
     [*] No Parliament really is no parliament, with added crown power and less happiness loss

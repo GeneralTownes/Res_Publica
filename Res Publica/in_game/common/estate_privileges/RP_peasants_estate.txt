@@ -21,6 +21,7 @@
 		peasants_estate_can_participate_in_parliament = yes
 		peasants_estate_target_satisfaction = medium_privilege_target_satisfaction
 		global_peasants_estate_power = 0.5
+		global_peasant_enfranchisment = 0.05
 		monthly_towards_free_subjects = societal_value_monthly_move
 	}
 }
@@ -36,6 +37,7 @@ REPLACE:peasants_in_administration = {
 		peasants_estate_target_satisfaction = medium_privilege_target_satisfaction
 		global_peasants_estate_power = 0.5
 		peasants_estate_allowed_in_cabinet = yes
+		global_peasant_enfranchisment = 0.05
 		monthly_towards_decentralization = societal_value_monthly_move
 	}
 }
@@ -50,6 +52,7 @@ REPLACE:communal_lands = {
 	country_modifier = {
 		monthly_towards_decentralization = societal_value_large_monthly_move
 		global_nobles_estate_power = -0.05
+		global_peasant_enfranchisment = 0.05
 		peasants_estate_target_satisfaction = medium_privilege_target_satisfaction
 		global_peasants_estate_power = 0.33
 	}
@@ -81,6 +84,7 @@ the_commons = {
 	country_modifier = {
 		peasants_estate_target_satisfaction = medium_privilege_target_satisfaction
 		global_peasants_estate_power = 1
+		global_peasant_enfranchisment = 0.1
 		monthly_towards_decentralization = societal_value_monthly_move
 		monthly_towards_free_subjects = societal_value_monthly_move
 		
@@ -106,6 +110,7 @@ provincial_assemblies = {
 	country_modifier = {
 		peasants_estate_target_satisfaction = medium_privilege_target_satisfaction
 		global_peasants_estate_power = 2
+		global_peasant_enfranchisment = 0.1
 		monthly_towards_decentralization = societal_value_monthly_move
 		monthly_towards_liberalism = societal_value_monthly_move
 		

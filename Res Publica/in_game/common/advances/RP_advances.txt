@@ -15,5 +15,6 @@ popular_sovereignty_advance = {
 	requires = the_constitution
 	
 	global_peasants_estate_power = 1
+	global_peasant_enfranchisment = 0.05
 	monthly_republican_tradition = 0.1
 }
