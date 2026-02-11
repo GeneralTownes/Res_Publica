@@ -26,35 +26,15 @@
 	}
 }
 
-REPLACE:peasants_in_administration = {
-	estate = peasants_estate
-	
+INJECT:peasants_in_administration = {
 	can_revoke = {
 		NOT = { has_reform = government_reform:an_agreement_of_the_people }
 	}
-	
-	country_modifier = {
-		peasants_estate_target_satisfaction = medium_privilege_target_satisfaction
-		global_peasants_estate_power = 0.5
-		peasants_estate_allowed_in_cabinet = yes
-		global_peasant_enfranchisment = 0.05
-		monthly_towards_decentralization = societal_value_monthly_move
-	}
 }
 
-REPLACE:communal_lands = {
-	estate = peasants_estate
-	
+INJECT:communal_lands = {
 	can_revoke = {
 		NOT = { has_reform = government_reform:levelling_the_land }
-	}
-
-	country_modifier = {
-		monthly_towards_decentralization = societal_value_large_monthly_move
-		global_nobles_estate_power = -0.05
-		global_peasant_enfranchisment = 0.05
-		peasants_estate_target_satisfaction = medium_privilege_target_satisfaction
-		global_peasants_estate_power = 0.33
 	}
 }
 
