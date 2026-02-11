@@ -19,7 +19,6 @@ Res Publica ensures that significant effort across the ages must be invested to 
     [*] Individualism societal value gives +25% artist skill (and no estate satisfaction loss) at max
     [*] Adjustments to administration system laws
     [*] Authoritarianism republic foundation law gives +5 max control
-    [*] Merchant Republic reform can be revoked with >50% republic power and <33% burgher power
     [*] Development growth from develop province cabinet action reduced to 20% of original effect
     [*] Population requirements to rank up more than doubled, and prestige requirements decreased
     [*] Non-accepted culture ruler event won't fire if culture is accepted (in addition to vanilla conditions of not firing if primary or kindred view)

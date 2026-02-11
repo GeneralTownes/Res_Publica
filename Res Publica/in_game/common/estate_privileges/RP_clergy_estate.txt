@@ -1,3 +1,6 @@
+##########
+# Res Publica additions
+
 puritan_austerity = { 
 	estate = clergy_estate
 	
