@@ -7,9 +7,9 @@ Res Publica ensures that significant effort across the ages must be invested to 
 [list]
     [*] Cost to change government type increased to 150 stability & 75 legitimacy with value requirement reduced to 75
     [*] Can now change government type if in a union
-    [*] Stability increases/decreases legitimacy and prosperity
+    [*] Stability increases/decreases legitimacy and prosperity and has a greater effect on estate satisfaction
     [*] Republican tradition increases revoke cost, increases estate happiness, and decays
-    [*] No republican tradition now gives +50% stab cost max (rather than +200%)
+    [*] Low republican tradition no longer increases stab cost, but instead reduces legislative efficiency
     [*] No base peasant enfranchisement
     [*] Centralised & Decentralised bureaucracy laws adjusted
     [*] Parliament estate distribution law gives +0.1 legitimacy / republican tradition

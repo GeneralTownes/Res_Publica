@@ -1,0 +1,2 @@
+﻿positive_stability_satisfaction_scale = 0.10
+negative_stability_satisfaction_scale = -0.5

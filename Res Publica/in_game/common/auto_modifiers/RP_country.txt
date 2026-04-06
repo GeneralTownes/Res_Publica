@@ -15,11 +15,13 @@ INJECT:stability_impact = {
 INJECT:high_republican_tradition = {
 	global_estate_target_satisfaction = medium_permanent_target_satisfaction
 	revoke_privilege_cost_modifier = 0.4
+	legislative_efficiency = -0.10  # To counter the 0.10 in vanilla
 	
 	monthly_republican_tradition = -1
 	# to simulate decay of RT
 }
 
 INJECT:low_republican_tradition = {
-	stability_cost = -1.5 # To counter the 2.0 in vanilla, resulting in 0.5 net
+	stability_cost = -2  # To counter the 2.0 in vanilla
+	legislative_efficiency = -1
 }
