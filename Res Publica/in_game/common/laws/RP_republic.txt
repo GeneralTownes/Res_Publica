@@ -73,3 +73,43 @@
 		years = 2
 	}
 }
+
+
+# Res Publica additions
+
+conscription_law = {
+	law_category = military
+
+	law_gov_group = republic 
+
+	potential = {
+		government_type = government_type:republic
+	}
+	
+	conscription = {
+		country_modifier = {
+		}
+		estate_preferences = {
+			nobles_estate
+		}
+		years = 1
+	}
+	volunteer_only = {
+		country_modifier = {
+			global_levy_size_modifier = -10
+			army_maintenance_cost = 0.25
+			navy_maintenance_cost = 0.25
+			discipline = 0.05
+			land_morale_modifier = 0.1
+			naval_morale_modifier = 0.1
+
+			monthly_towards_quality = societal_value_large_monthly_move
+			monthly_towards_free_subjects = societal_value_monthly_move
+			monthly_towards_liberalism = societal_value_minor_monthly_move
+		}
+		estate_preferences = {
+			peasants_estate
+		}
+		years = 1
+	}
+}

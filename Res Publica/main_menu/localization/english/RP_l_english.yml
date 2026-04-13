@@ -15,10 +15,16 @@
  
  # Succession
  republic_5_year_terms: "Constitutional Republic 5 Year Terms"
- republic_5_year_terms_desc: "It is a type of [heir_selection|e] of a [ShowGovernmentTypeName('republic')], in which the [ruler|e] is selected by [election|e] for an established tenure of 5 years from amongst any estate."
+ republic_5_year_terms_desc: "It is a type of [heir_selection|e] of a [ShowGovernmentTypeName('republic')], in which the [ruler|e] is selected by [election|e] for an established tenure of 5 years from amongst any [estates|e]."
  
  # Policies & Laws
  federal_state: "Federal Union"
+ conscription_law: "Conscription Law"
+ conscription_law_desc: "Our [ShowGovernmentTypeName('republic')] may grant the power to the [Player.GetGovernment.GetRulerTitle] to compel military service for the duration of any conflict."
+ conscription: "Conscription"
+ conscription_desc: "Levies may be recruited from any [estates|e] to serve in either the [army|e] or [navy|e] of the [ShowGovernmentTypeName('republic')]."
+ volunteer_only: "Volunteer Only"
+ volunteer_only_desc: "The constitution prohibits the impressment of citizens into military service. The [ShowGovernmentTypeName('republic')] maintains a full volunteer [army|e] and [navy|e]."
  
  # Parliament
  support_republic_issue: "Amend Constitution"
