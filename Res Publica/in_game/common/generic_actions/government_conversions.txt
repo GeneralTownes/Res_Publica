@@ -124,6 +124,7 @@ monarchy_to_republic = {
 		scope:actor = { 
 			change_government_type = government_type:republic
 			add_estate_satisfaction = { type = estate_type:burghers_estate value = estate_satisfaction_extreme_bonus }
+			change_heir_selection = heir_selection:oligarchic_elective
 		}
 
 		custom_tooltip = warn_about_loss_of_content_tt
