@@ -95,6 +95,9 @@ conscription_law = {
 		years = 1
 	}
 	volunteer_only = {
+		allow = {
+			has_advance = abolished_serfdom
+		}
 		country_modifier = {
 			global_levy_size_modifier = -10
 			army_maintenance_cost = 0.25
