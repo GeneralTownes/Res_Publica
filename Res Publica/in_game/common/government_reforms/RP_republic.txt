@@ -26,6 +26,10 @@ constitutional_republic = {
 	on_activate = {
 		change_heir_selection = heir_selection:republic_5_year_terms
 	}
+	
+	on_deactivate = {
+		change_heir_selection = heir_selection:oligarchic_elective
+	}
 
 	years = 4
 }
