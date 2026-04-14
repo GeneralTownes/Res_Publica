@@ -44,6 +44,7 @@ Res Publica ensures that significant effort across the ages must be invested to 
 [/list]
 
 Anyone welcome to use part/all of this mod in their own, and if so credit with a reference appreciated.
+[url=https://github.com/GeneralTownes/Res_Publica] Github link[/url] to mod repository.
 
 [img] https://upload.wikimedia.org/wikipedia/commons/7/7c/Cromwell_cutting_down_the_Royal_Oak%2C_1649.jpg [/img]
 [i] [url=https://commons.wikimedia.org/wiki/File:Cromwell_cutting_down_the_Royal_Oak,_1649.jpg] This satirical print depicts Oliver Cromwell ordering the felling of the Royal Oak of Britain, symbol of the English monarchy.[/url], 1649 [/i]
