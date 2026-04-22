@@ -40,6 +40,7 @@ Res Publica ensures that significant effort across the ages must be invested to 
     [*] New Situation: The Restless Republic, with three new events and three new actions
     [*] Protectorate and Commonwealth are two different names and ruler titles
     [*] Two government reforms to represent the Levellers and Diggers, conditional on constitutionalism and peasant rights
+    [*] New City Expansion Rights privilege (available to all government types)
     [*] Constitutional British Republic given a new flag to replace the four-nations flag
 [/list]
 
