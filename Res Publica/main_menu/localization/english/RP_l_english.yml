@@ -37,6 +37,8 @@
  the_commons_desc: "The Commons of England are an integral part of the manor under a grant from the [ShowEstateTypeName('crown_estate')]. The rights in gross and appurtenant of the [ShowEstateTypeName('peasants_estate')] shall be defended so that any free person of England can pasture, piscary, turbary, pannage, estover and common in the soil, as is their right."
  provincial_assemblies: "Provincial Assemblies"
  provincial_assemblies_desc: "The [ShowEstateTypeName('peasants_estate')] of our [ShowGovernmentTypeName('republic')] live distinct and varied lives across our many provinces. This reality is recognised by constitutionally legitimised provincial assemblies."
+ city_expansion_rights: "City Expansion Rights"
+ city_expansion_rights_desc: "The cities of our [ShowGovernmentTypeName('republic')] must be allowed to expand at will into the countryside, with no impediment on their growth. The greatness of our metropolises will know no bounds!"
  
  # Situations
  the_english_revolution: "The Restless Republic"
