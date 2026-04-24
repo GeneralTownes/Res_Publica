@@ -43,6 +43,7 @@ Res Publica ensures that significant effort across the ages must be invested to 
     [*] Two government reforms to represent the Levellers and Diggers, conditional on constitutionalism and peasant rights
     [*] New City Expansion Rights privilege (available to all government types)
     [*] Constitutional British Republic given a new flag to replace the four-nations flag
+    [*] Republic rulers will only wear monarch clothing if they rule a non-subject monarchy
 [/list]
 
 Anyone welcome to use part/all of this mod in their own, and if so credit with a reference appreciated.
