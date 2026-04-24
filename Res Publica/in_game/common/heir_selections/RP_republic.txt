@@ -19,13 +19,14 @@ republic_5_year_terms = {
 	term_duration = 60 # in months
 	max_possible_candidates = 4
 	
-	potential = {
+	allowed = { # So it appears visible
 		has_reform = government_reform:constitutional_republic 
 	}
 
-	locked = {
-		has_reform = government_reform:constitutional_republic 
-	}
+	# Allow player choice
+	#locked = {
+	#	has_reform = government_reform:constitutional_republic 
+	#}
 
 	allowed_estates = { nobles_estate burghers_estate clergy_estate peasants_estate }
 	
