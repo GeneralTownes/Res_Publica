@@ -1,0 +1,66 @@
+﻿namespace = english_civil_war
+
+#English Civil War related Events
+
+english_civil_war.250 = {
+	type = country_event
+	category = disaster_event
+	title = english_civil_war.250.title
+	desc = english_civil_war.250.desc
+	historical_info = english_civil_war.250.historical_info
+	fire_only_once = yes
+	dynamic_historical_event = {
+		tag = ENG
+        tag = GBR
+		from = 1630.1.1
+		to = 1640.1.1
+		monthly_chance = 2
+	}
+
+	trigger = {
+		location:huntingdon = { top_owner = root }
+	}
+
+	immediate = {
+		location:huntingdon = {
+			save_scope_as = target_location
+		}
+		create_character = {
+			first_name = name_oliver
+			last_name = Cromwell
+			estate = estate_type:burghers_estate
+			adm = { 65 95 }
+			dip = { 65 95 }
+			mil = { 65 95 }
+			birth_date = 1599.4.25
+			birth_location = location:huntingdon
+			religion = location:huntingdon.dominant_religion
+			trait_category = general
+			save_scope_as = target_character
+			script = eng_oliver_cromwell
+			set_variable = eng_oliver_cromwell_script
+		}
+
+	}
+
+	option = {
+		name = english_civil_war.250.a
+		
+		if = {
+			limit = {
+				NOT = {
+					government_type = government_type:republic
+				}
+			}
+			add_stability = stability_ultimate_penalty
+			add_government_power = government_power_ultimate_penalty
+			custom_tooltip = {
+				text = more_likely_to_fire_disaster_tt
+				set_variable = {
+					name = english_civil_war_chance_variable
+					years = 50
+				}
+			}
+		}
+	}
+}
