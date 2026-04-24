@@ -16,6 +16,7 @@ Res Publica ensures that significant effort across the ages must be invested to 
     [*] No Parliament really is no parliament, with added crown power and less happiness loss
     [*] House of Parliament and Supreme Court both give +0.1 republican tradition
     [*] Liberalism societal value gives +0.1 republican tradition at max
+    [*] Republic successions that don't rule for life give +0.1 republican tradition
     [*] Individualism societal value gives +25% artist skill (and no estate satisfaction loss) at max
     [*] Adjustments to administration system laws
     [*] Authoritarianism republic foundation law gives +5 max control

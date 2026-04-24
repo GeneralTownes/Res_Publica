@@ -1,4 +1,18 @@
-﻿republic_5_year_terms = {
+﻿INJECT:republic_4_year_terms = {
+
+	modifier = {
+		monthly_republican_tradition = 0.1
+	}
+}
+
+INJECT:republic_2_year_terms = {
+
+	modifier = {
+		monthly_republican_tradition = 0.1
+	}
+}
+
+republic_5_year_terms = {
 
 	#allow_female = yes
 	use_election = yes
@@ -74,5 +88,6 @@
 
 	modifier = {
 		care_about_producing_heirs = no
+		monthly_republican_tradition = 0.1
 	}
 }
