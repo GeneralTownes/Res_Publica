@@ -6,6 +6,7 @@ Res Publica ensures that significant effort across the ages must be invested to 
 [h2] Adjustments [/h2]
 [list]
     [*] Cost to change government type increased to 150 stability & 75 legitimacy
+    [*] Abolishing the monarchy slightly angers the clergy and greatly angers the nobility
     [*] Can now change government type if in a union
     [*] Stability increases/decreases legitimacy and prosperity and has a greater effect on estate satisfaction
     [*] Republican tradition increases revoke cost, increases estate happiness, and decays
