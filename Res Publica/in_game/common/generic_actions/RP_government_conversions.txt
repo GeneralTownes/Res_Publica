@@ -56,6 +56,7 @@ REPLACE:monarchy_to_republic = {
 	effect = {
 		scope:actor = { 
 			change_government_type = government_type:republic
+			change_heir_selection = heir_selection:oligarchic_elective
 			add_estate_satisfaction = { type = estate_type:burghers_estate value = estate_satisfaction_extreme_bonus }
 			add_estate_satisfaction = { type = estate_type:nobles_estate value = estate_satisfaction_extreme_penalty }
 			add_estate_satisfaction = { type = estate_type:clergy_estate value = estate_satisfaction_weak_penalty }
