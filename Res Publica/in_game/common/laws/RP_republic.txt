@@ -88,11 +88,32 @@ conscription_law = {
 	
 	conscription = {
 		country_modifier = {
+			global_estate_power = 0.05
+			global_levy_size_modifier = 0.05
 		}
 		estate_preferences = {
 			nobles_estate
 		}
 		years = 1
+	}
+	mass_conscription = {
+		allow = {
+			OR = {
+				has_advance = levee_en_masse_advance
+				is_revolutionary = yes
+			}
+		}
+		country_modifier = {
+			peasants_estate_target_satisfaction = large_permanent_target_satisfaction_penalty
+			global_levy_size_modifier = 0.50
+			
+			monthly_towards_quantity = societal_value_large_monthly_move
+		}
+		estate_preferences = {
+			crown_estate
+		}
+		years = 1
+	
 	}
 	volunteer_only = {
 		allow = {

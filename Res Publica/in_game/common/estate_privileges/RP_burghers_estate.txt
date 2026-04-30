@@ -29,6 +29,7 @@ city_expansion_rights = {
 		global_burghers_estate_power = 1
 		global_monthly_food_modifier = -0.25
 		global_population_capacity_modifier = 1
+		global_monthly_prosperity = 0.001
 		# building levels only applies at the location scope, doesnt work here
 	}
 }

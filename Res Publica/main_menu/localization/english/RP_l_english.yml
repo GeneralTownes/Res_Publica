@@ -22,7 +22,9 @@
  conscription_law: "Conscription Law"
  conscription_law_desc: "Our [ShowGovernmentTypeName('republic')] may grant the power to the [Player.GetGovernment.GetRulerTitle] to compel military service for the duration of any conflict."
  conscription: "Conscription"
- conscription_desc: "Levies may be recruited from any [estates|e] to serve in either the [army|e] or [navy|e] of the [ShowGovernmentTypeName('republic')]."
+ conscription_desc: "Levies may be recruited from loyal estates [estates|e] to serve in either the [army|e] or [navy|e] of the [ShowGovernmentTypeName('republic')]."
+ mass_conscription: "Mass Conscription"
+ mass_conscription_desc: "The [ShowGovernmentTypeName('republic')] is under threat! All citizens are required to serve in the [army|e] and [navy|e] for the defence of our liberties."
  volunteer_only: "Volunteer Only"
  volunteer_only_desc: "The constitution prohibits the impressment of citizens into military service. The [ShowGovernmentTypeName('republic')] maintains a full volunteer [army|e] and [navy|e]."
  
