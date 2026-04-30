@@ -12,3 +12,10 @@ INJECT:assembly = {
 		burghers_estate_agenda_impact = -0.33
 	}
 }
+
+INJECT:constitutional_parliament = {
+	modifier = {
+		monthly_republican_tradition = 0.1
+		monthly_towards_liberalism = societal_value_monthly_move
+	}
+}
