@@ -3,50 +3,41 @@ The English Civil War led to major developments in political theory about the na
 
 Res Publica ensures that significant effort across the ages must be invested to build the institutions (laws, values, buildings and estate privileges) that are required to maintain a republic (high republican tradition). This effect is amplified by the added decay which (as a base) requires significantly higher percentages of investment in the republican court to maintain high tradition. As a general guide monarchies are more capable at expanding territorially i.e. with fiefdoms and personal unions, and republics are more capable at expanding economically i.e. slightly better development growth, trade and advances.
 
-[h2] Adjustments [/h2]
+[h2] New Mechanics & Flavour [/h2]
+Added content is displayed in the screenshots, with additional cosmetic changes explained below:
 [list]
-    [*] Cost to change government type increased to 150 stability & 75 legitimacy
-    [*] Abolishing the monarchy slightly angers the clergy and greatly angers the nobility
+    [*] Protectorate and Commonwealth are two different names and ruler titles
+    [*] Constitutional British Republic given a new flag to replace the four-nations flag
+    [*] Republic rulers will only wear monarch clothing if they rule a non-subject monarchy
+[/list]
+
+[h2] Adjustments [/h2]
+Additional changes not displayed in the above screenhots are:
+[list]
     [*] Can now change from monarchy to republic if in a union
-    [*] Stability increases/decreases legitimacy and prosperity and has a greater effect on estate satisfaction
-    [*] Republican tradition increases revoke cost, increases estate happiness, and decays
-    [*] Low republican tradition no longer increases stab cost, but instead reduces legislative efficiency
     [*] No base peasant enfranchisement
-    [*] Centralised & Decentralised bureaucracy laws adjusted
-    [*] Parliament estate distribution law gives +0.1 legitimacy / republican tradition
-    [*] No Parliament really is no parliament, with added crown power and less happiness loss
-    [*] House of Parliament and Supreme Court both give +0.1 republican tradition
-    [*] Constitutional parliament gives +0.1 republican tradition
-    [*] Liberalism societal value gives +0.1 republican tradition at max
-    [*] Republic successions that don't rule for life give +0.1 republican tradition
     [*] Individualism societal value gives +25% artist skill (and no estate satisfaction loss) at max
-    [*] Adjustments to administration system laws
-    [*] Authoritarianism republic foundation law gives +5 max control
     [*] Development growth from develop province cabinet action reduced to 20% of original effect
-    [*] Population requirements to rank up more than doubled, and prestige requirements decreased
     [*] Cromwell origin event does not reduce stability & legitimacy if already a republic
     [*] Non-accepted culture ruler event won't fire if culture is accepted (in addition to vanilla conditions of not firing if primary or kindred view)
     [*] Conditions for Revolution disaster adjusted so will occur for absolutist monarchies and not for republics (unless very absolutist)
 [/list]
 
-[h2] New Mechanics [/h2]
+[h3] Added methods of gaining +0.1 monthly Republican Tradition: [/h3]
 [list]
-    [*] Republican Virtue advance in Age of Renaissance after Renaissance Thought
-    [*] Popular Sovereignty advance in Age of Absolutism after The Constitution
-    [*] Constitutional Republic government reform blocks ruler dynasty from cabinet and military
-    [*] Constitutional republic succession law that prevents royal marriages and scores on merit alone
-    [*] New Conscription Law for republics
-    [*] Parliament issue for republics that gives +10 republican tradition and reduces cost of revoking privileges or changing government reforms (if not in Restless Republic situation)
-[/list]
-
-[h2] Flavour [/h2]
-[list]
-    [*] New Situation: The Restless Republic, with three new events and three new actions
-    [*] Protectorate and Commonwealth are two different names and ruler titles
-    [*] Two government reforms to represent the Levellers and Diggers, conditional on constitutionalism and peasant rights
-    [*] New City Expansion Rights privilege (available to all government types)
-    [*] Constitutional British Republic given a new flag to replace the four-nations flag
-    [*] Republic rulers will only wear monarch clothing if they rule a non-subject monarchy
+    [*] [i] Status:				[/i] Stability
+    [*] [i] Advance:			[/i] Republican Virtue		(Age II)
+    [*] [i] Advance:			[/i] Popular Sovereignty	(Age V)
+    [*] [i] Advance:			[/i] Rights of Man			(Age VI)
+    [*] [i] Societal Value:		[/i] Liberalism
+    [*] [i] Government Reform:	[/i] Constitutional Republic
+    [*] [i] Government Reform:	[/i] Provincial Assembly
+    [*] [i] Government Reform:	[/i] An Agreement of the People
+    [*] [i] Parliament:			[/i] Constitutional Parliament
+    [*] [i] Succession:			[/i] Term-limited rulers
+    [*] [i] Law:				[/i] Parliament (Distribution of Power)
+    [*] [i] Building:			[/i] House of Parliament
+    [*] [i] Building:			[/i] Supreme Court
 [/list]
 
 Anyone welcome to use part/all of this mod in their own, and if so credit with a reference appreciated.

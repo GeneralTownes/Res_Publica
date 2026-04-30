@@ -1,4 +1,8 @@
-﻿republican_virtue_advance = {
+﻿INJECT:rights_of_man = {
+	monthly_republican_tradition = 0.1
+}
+
+republican_virtue_advance = {
 	age = age_2_renaissance
 	government = republic
 	requires = renaissance_thought
