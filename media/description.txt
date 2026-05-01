@@ -6,6 +6,7 @@ Res Publica ensures that significant effort across the ages must be invested to 
 [h2] New Mechanics & Flavour [/h2]
 Added content is displayed in the screenshots, with additional cosmetic changes explained below:
 [list]
+    [*] No ruler portrait displayed, instead custom flag display & outline (with thanks to [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3601047146] Glorp UI[/url])
     [*] Protectorate and Commonwealth are two different names and ruler titles
     [*] Constitutional British Republic given a new flag to replace the four-nations flag
     [*] Republic rulers will only wear monarch clothing if they rule a non-subject monarchy
