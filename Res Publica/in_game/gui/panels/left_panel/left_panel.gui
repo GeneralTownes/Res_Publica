@@ -706,6 +706,14 @@ Types LeftPanelTypes
             position = { 5 10 }
             allow_outside = yes
 			
+			## To hide the separating bar
+            icon = {
+                size = { 148 6 }
+                position = { 73 -11 }
+                parentanchor = center
+                texture = "gfx/interface/colors/intense_bg_blue.dds"
+            }
+			
 			 icon = {
                 position = { -4 -47 }
                 parentanchor = right
@@ -729,13 +737,6 @@ Types LeftPanelTypes
                 texture_density = 2
 
                 using = non_clickable_color_gold_texture
-            }
-			
-            icon = {
-                size = { 30 6 }
-                position = { 131 -11 }
-                parentanchor = center
-                texture = "gfx/interface/colors/intense_bg_blue.dds"
             }
 
 			flag_3d_animated = {
