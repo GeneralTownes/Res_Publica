@@ -78,10 +78,7 @@ the_commons = {
 
 provincial_assemblies = { 
 	estate = peasants_estate
-	
-	potential = {
-		government_type = government_type:republic
-	}
+
 	allow = {
 		NOT = { parliament_type = parliament_type:no_parliament }
 		NOT = { parliament_type = parliament_type:autocratic_parliament }
