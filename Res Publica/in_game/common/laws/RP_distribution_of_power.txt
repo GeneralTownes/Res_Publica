@@ -122,6 +122,7 @@
 	
 		allow = {
 			NOT = { has_reform = government_reform:royal_decree }
+			modifier:has_a_parliamentary_system = yes
 		}
 		country_modifier = {
 			global_crown_estate_power = -0.33
