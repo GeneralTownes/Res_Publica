@@ -98,7 +98,18 @@ provincial_assemblies = {
 		monthly_towards_liberalism = societal_value_monthly_move
 		
 		monthly_republican_tradition = 0.1
-		peasants_estate_max_tax = -0.05
-		global_monthly_development = 0.0005
+	}
+	
+	location_modifier = {
+		potential_trigger = {
+			custom_tooltip = {
+				text = rural_settlement_gets_tt
+				location_rank = location_rank:rural_settlement
+			}
+		}
+		local_monthly_prosperity = 0.001
+		local_monthly_development = 0.0005
+		local_max_control = -0.05
+		local_peasant_enfranchisment = 0.15
 	}
 }

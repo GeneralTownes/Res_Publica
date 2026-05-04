@@ -40,7 +40,9 @@
  provincial_assemblies: "Provincial Assemblies"
  provincial_assemblies_desc: "The [ShowEstateTypeName('peasants_estate')] of our [ShowGovernmentTypeName('republic')] live distinct and varied lives across our many provinces. This reality is recognised by constitutionally legitimised provincial assemblies."
  city_expansion_rights: "City Expansion Rights"
- city_expansion_rights_desc: "The cities of our [ShowGovernmentTypeName('republic')] must be allowed to expand at will into the countryside, with no impediment on their growth. The greatness of our metropolises will know no bounds!"
+ city_expansion_rights_desc: "The cities of the realm must be allowed to expand at will into the countryside, with no impediment on their growth. The greatness of our metropolises will know no bounds!"
+ autonomous_municipalities: "Autonomous Municipalities"
+ autonomous_municipalities_desc: "Sometimes when you love something, you have to let it go. And so we will give our towns the political and economic freedom required to develop into shining cities on the hills."
  
  # Situations
  the_english_revolution: "The Restless Republic"
@@ -88,3 +90,7 @@
  prides_purge_historical_info: "Pride's Purge is the name commonly given to an event that took place on 6 December 1648, when soldiers prevented members of Parliament considered hostile to the New Model Army from entering the House of Commons of England. Despite defeat in the First English Civil War, Charles I retained significant political power. This allowed him to create an alliance with Scots Covenanters and Parliamentarian moderates to restore him to the English throne. The result was the 1648 Second English Civil War, in which he was defeated once again. Convinced only his removal could end the conflict, senior commanders of the New Model Army took control of London on 5 December. The next day, soldiers commanded by Colonel Thomas Pride forcibly excluded from the Long Parliament those MPs viewed as their opponents, and arrested 45. The purge cleared the way for the execution of Charles in January 1649, and establishment of the Protectorate in 1653; it is considered the only recorded military coup d'état in English history."
  the_humble_petition_historical_info: "On 23 February 1657, during a sitting of the Second Protectorate Parliament Sir Christopher Packe (Member of Parliament and former Lord Mayor of London) presented the Lord Protector Oliver Cromwell with a remonstrance which became known as the Humble Petition and Advice. The intention of the Humble Petition and Advice was to offer a hereditary monarchy to Oliver Cromwell, to assert Parliament's control over new taxation, to provide an independent council to advise the king, to assure the holding of 'Triennial' meetings (every three years) of Parliament, and to reduce the size of the standing army in order to save money, amongst other things. These limited, rather than increased, Cromwell's power. However, the real sticking point for many radicals were Clauses 10 through 12; these placed severe restrictions on sects like Fifth Monarchists and Baptists, while seeking to re-establish a national church structured along Presbyterian lines."
  
+ 
+ # Custom Tooltips
+ city_or_town_gets_tt: "Every owned [town_and_city|e] will gain:"
+ rural_settlement_gets_tt: "Every owned [rural_location|e] will gain:"

@@ -32,13 +32,14 @@ Additional changes not displayed in the above screenhots are:
     [*] [i] Advance:			[/i] Rights of Man			(Age VI)
     [*] [i] Societal Value:		[/i] Liberalism
     [*] [i] Government Reform:	[/i] Constitutional Republic
-    [*] [i] Government Reform:	[/i] Provincial Assembly
     [*] [i] Government Reform:	[/i] An Agreement of the People
     [*] [i] Parliament:			[/i] Constitutional Parliament
     [*] [i] Succession:			[/i] Term-limited rulers
     [*] [i] Law:				[/i] Parliament (Distribution of Power)
     [*] [i] Building:			[/i] House of Parliament
     [*] [i] Building:			[/i] Supreme Court
+    [*] [i] Estate Privilege:	[/i] Provincial Assemblies
+    [*] [i] Estate Privilege:	[/i] Autonomous Municipalities
 [/list]
 
 Anyone welcome to use part/all of this mod in their own, and if so credit with a reference appreciated.

@@ -25,12 +25,59 @@ city_expansion_rights = {
 		burghers_estate_target_satisfaction = medium_privilege_target_satisfaction
 		nobles_estate_target_satisfaction = medium_privilege_target_satisfaction_penalty
 		peasants_estate_target_satisfaction = medium_privilege_target_satisfaction_penalty
+		global_burghers_estate_power = 1
 		monthly_towards_plutocracy = societal_value_monthly_move
 		
+		global_monthly_food_modifier = -0.3
+	}
+	
+	location_modifier = {
+		potential_trigger = {
+			custom_tooltip = {
+				text = city_or_town_gets_tt
+				OR = {
+					location_rank = location_rank:town
+					location_rank = location_rank:city
+				}
+			}
+		}
+		local_population_capacity = 50
+		local_population_capacity_modifier = 0.5
+		free_building_levels = 50
+		local_monthly_prosperity = 0.001
+	}
+}
+
+autonomous_municipalities = { 
+	estate = burghers_estate
+	
+	allow = {
+		has_advance = city_building_advance
+		has_advance = renaissance_city_rights
+	}
+
+	country_modifier = {
+		burghers_estate_target_satisfaction = medium_privilege_target_satisfaction
+		monthly_towards_decentralization = societal_value_monthly_move
+		monthly_towards_liberalism = societal_value_monthly_move
 		global_burghers_estate_power = 1
-		global_monthly_food_modifier = -0.25
-		global_population_capacity_modifier = 1
-		global_monthly_prosperity = 0.001
-		# building levels only applies at the location scope, doesnt work here
+		
+		monthly_republican_tradition = 0.1
+		global_integration_speed_modifier = -0.25
+		annexation_speed_base = -0.25
+	}
+	
+	location_modifier = {
+		potential_trigger = {
+			custom_tooltip = {
+				text = city_or_town_gets_tt
+				OR = {
+					location_rank = location_rank:town
+					location_rank = location_rank:city
+				}
+			}
+		}
+		local_monthly_development = 0.0015
+		local_max_control = -0.05
 	}
 }
