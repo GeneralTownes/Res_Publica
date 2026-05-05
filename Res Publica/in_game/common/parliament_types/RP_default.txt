@@ -1,8 +1,8 @@
 ﻿INJECT:no_parliament = {
 	modifier = {
 		parliament_abolished = yes
-		global_crown_estate_power = 0.50
-		global_estate_target_satisfaction = medium_permanent_target_satisfaction
+		global_crown_estate_power = 1
+		global_estate_max_tax = 0.05
 	}
 }
 
