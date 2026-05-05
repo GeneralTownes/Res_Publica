@@ -120,20 +120,20 @@ Types LeftPanelTypes
 				using = layoutpolicy_expanding
 
 				### CORNER1
-				#icon = {
-				#	size = { 64 54 }
-				#	texture = "[GetGraphicalCultureTexture('panel_bar_corner')]"
-				#	texture_density = 2
-				#	mirror = horizontal
-				#	using = non_clickable_color_gold_texture
-				#
-				#	glow = {
-				#		name = "drop_shadow"
-				#		glow_radius = 2
-				#		color = {0.0 0.0 0.0 1.0}
-				#		alpha = 0.7
-				#	}
-				#}
+				# icon = {
+				# 	size = { 64 54 }
+				# 	texture = "[GetGraphicalCultureTexture('panel_bar_corner')]"
+				# 	texture_density = 2
+				# 	mirror = horizontal
+				# 	using = non_clickable_color_gold_texture
+
+				# 	glow = {
+				# 		name = "drop_shadow"
+				# 		glow_radius = 2
+				# 		color = {0.0 0.0 0.0 1.0}
+				# 		alpha = 0.7
+				# 	}
+				# }
 
 				### COUNTRY NAME
 				hbox = {
@@ -148,6 +148,14 @@ Types LeftPanelTypes
 						size = { 65 1 }
 					}
 
+					#  Res Publica: To fix spacing from flag changes (double end spacing)
+					expand = {}
+					expand = {}
+					expand = {}
+					expand = {}
+					expand = {}
+					expand = {}
+					expand = {}
 					expand = {}
 
 					hbox = {
@@ -288,9 +296,17 @@ Types LeftPanelTypes
 								}
 							}
 						}
-						
 					}
 
+					#  Res Publica: To fix spacing for rank
+					expand = {}
+					expand = {}
+					expand = {}
+					expand = {}
+						
+					datacontext = "[Player]"
+					country_rank_banner = {}
+					
 					expand = {}
 				}
 
