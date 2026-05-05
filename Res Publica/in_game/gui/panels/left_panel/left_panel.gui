@@ -730,26 +730,24 @@ Types LeftPanelTypes
                 texture = "gfx/interface/colors/intense_bg_blue.dds"
             }
 			
-			 icon = {
-                position = { -4 -47 }
-                parentanchor = right
-                widgetanchor = left
-                using = panel_decor_size
-                mirror = horizontal
-                texture = "[GetGraphicalCultureTexture('panel_bar_corner_shadow')]"
-                # texture = "gfx/interface/graphical_cultures/european_gfx/panel_bar_corner_shadow.dds"
-                texture_density = 2
-
-                using = color_black_texture
-            }
             icon = {
                 position = { -4 -47 }
                 parentanchor = right
                 widgetanchor = left
                 using = panel_decor_size
                 mirror = horizontal
-                texture = "[GetGraphicalCultureTexture('panel_bar_corner')]"
-                # texture = "gfx/interface/graphical_cultures/european_gfx/fancy_flag_cloth.dds"
+                texture = "gfx/interface/RP_graphics/MaTi_panel_bar_corner_shadow.dds"
+                texture_density = 2
+
+                using = color_black_texture
+            }
+			icon = {
+                position = { -4 -47 }
+                parentanchor = right
+                widgetanchor = left
+                using = panel_decor_size
+                mirror = horizontal
+                texture = "gfx/interface/RP_graphics/MaTi_panel_bar_corner.dds"
                 texture_density = 2
 
                 using = non_clickable_color_gold_texture
