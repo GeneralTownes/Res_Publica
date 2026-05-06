@@ -111,6 +111,15 @@
 		}
 	}
 
+	text = {
+		localization_key = rank_victual_brothers
+		trigger = {
+			has_reform = government_reform:pirate_brethren_reform
+			government_type = government_type:republic
+			has_variable = VTB_victual_brothers
+		}
+	}
+
 	################## EMPIRE ##################
 
 	text = {
@@ -395,7 +404,7 @@
 		trigger = {
 
 			country_rank_is_empire = yes
-			culture = culture:jurchen_culture
+			culture ?= { has_culture_group = culture_group:jurchen_group }
 		}
 	}
 	
@@ -623,6 +632,30 @@
 				country_rank_is_kingdom = yes
 			}
 			culture = { has_culture_group = culture_group:nahua_group }
+		}
+	}
+
+	text = {
+		localization_key = rank_empire_slovene
+		trigger = {
+			country_rank_is_empire = yes
+			court_dialect ?= dialect:slovene_dialect
+		}
+	}
+
+	text = {
+		localization_key = rank_empire_serbo_croatian
+		trigger = {
+			country_rank_is_empire = yes
+			court_language ?= language:serbo_croatian_language
+		}
+	}
+
+	text = {
+		localization_key = rank_empire_bulgarian
+		trigger = {
+			country_rank_is_empire = yes
+			court_language ?= language:bulgarian_language
 		}
 	}
 
@@ -913,6 +946,7 @@
 	text = {
 		localization_key = rank_kingdom_horde
 		trigger = {
+			country_rank_is_kingdom = yes
 			government_type = government_type:steppe_horde
 		}
 	}
@@ -1178,7 +1212,7 @@
 		trigger = {
 
 			country_rank_is_kingdom = yes
-			culture = culture:jurchen_culture
+			culture ?= { has_culture_group = culture_group:jurchen_group }
 		}
 	}
 
@@ -1216,6 +1250,22 @@
 		}
 	}
 
+	#text = {
+	#	localization_key = rank_kingdom_serbo_croatian
+	#	trigger = {
+	#		country_rank_is_kingdom = yes
+	#		court_language ?= language:serbo_croatian_language
+	#	}
+	#}
+
+	#text = {
+	#	localization_key = rank_kingdom_bulgarian
+	#	trigger = {
+	#		country_rank_is_kingdom = yes
+	#		court_language ?= language:bulgarian_language
+	#	}
+	#}
+
 	text = {
 		localization_key = rank_kingdom
 		trigger = {
@@ -1234,6 +1284,7 @@
 			is_revolutionary = yes
 		}
 	}
+	
 	# Republic
 
 	text = {
@@ -1587,6 +1638,25 @@
 			}
 		}
 	}
+	
+	text = {
+		localization_key = rank_duchy_bosnian_banate
+		trigger = {
+			country_rank_is_duchy = yes
+			tag = BOS
+			is_subject = yes
+			court_language ?= language:serbo_croatian_language
+		}
+	}
+	
+	text = {
+		localization_key = rank_duchy_karvuna_despotate
+		trigger = {
+			country_rank_is_duchy = yes
+			tag = KVN
+			is_subject = yes
+		}
+	}
 
 	text = {
 		localization_key = rank_duchy_voivode
@@ -1596,14 +1666,12 @@
 			is_subject = yes
 			OR = {
 				court_language ?= language:west_slavic_language
-				court_language ?= language:serbo_croatian_language
 				court_language ?= language:romanian_language
 				AND = {
 					exists = culture
 					exists = culture.language
 					OR = {
 						culture.language ?= language:west_slavic_language
-						culture.language ?= language:serbo_croatian_language
 						culture.language ?= language:romanian_language
 					}
 				}
@@ -1880,7 +1948,7 @@
 		trigger = {
 
 			country_rank_is_duchy = yes
-			culture = culture:jurchen_culture
+			culture ?= { has_culture_group = culture_group:jurchen_group }
 		}
 	}
 
@@ -1892,6 +1960,13 @@
 			country_rank_is_duchy = yes
 			tag = HAB
 			has_reform = government_reform:austrian_archduchy_reform
+			trigger_if = { #this key is used both for the country (Empire) and the ruler through adding a suffix (Most Catholic Emperor), so if we're getting it for a character, then we need to check they were actually a ruler from the time that this change came about
+				limit = {
+					exists = scope:character
+					not = { ruler = scope:character }
+				}
+				"country_government_reform_implementation_date(government_reform:austrian_archduchy_reform)" <= "scope:character.rule_end_date(root)"
+			}
 		}
 	}
 
@@ -1910,6 +1985,14 @@
 
 			country_rank_is_duchy = yes
 			culture.language = language:east_slavic_language
+		}
+	}
+
+	text = {
+		localization_key = rank_duchy_serbo_croatian
+		trigger = {
+			country_rank_is_duchy = yes
+			court_language ?= language:serbo_croatian_language
 		}
 	}
 
@@ -2204,6 +2287,22 @@
 	# Default
 
 	text = {
+		localization_key = rank_county_landgraviate
+		trigger = {
+			country_rank_is_county = yes
+			has_reform = government_reform:landgraviate
+		}
+	}
+
+	text = {
+		localization_key = rank_county_margraviate
+		trigger = {
+			country_rank_is_county = yes
+			has_reform = government_reform:margraviate
+		}
+	}
+
+	text = {
 		localization_key = rank_county_turkish
 		trigger = {
 
@@ -2381,7 +2480,7 @@
 		trigger = {
 
 			country_rank_is_county = yes
-			culture = culture:jurchen_culture
+			culture ?= { has_culture_group = culture_group:jurchen_group }
 		}
 	}
 
@@ -2415,6 +2514,38 @@
 		trigger = {
 			country_rank_is_county = yes
 			culture = { has_culture_group = culture_group:thai_group }
+		}
+	}
+
+	text = {
+		localization_key = rank_county_slovene
+		trigger = {
+			country_rank_is_county = yes
+			court_dialect ?= dialect:slovene_dialect
+		}
+	}
+
+	text = {
+		localization_key = country_rank_despotate
+		trigger = {
+			tag = SMC
+			country_rank_is_county = yes
+		}
+	}
+
+	text = {
+		localization_key = rank_county_serbo_croatian
+		trigger = {
+			country_rank_is_county = yes
+			court_language ?= language:serbo_croatian_language
+		}
+	}
+
+	text = {
+		localization_key = rank_county_bulgarian
+		trigger = {
+			country_rank_is_county = yes
+			court_language ?= language:bulgarian_language
 		}
 	}
 
