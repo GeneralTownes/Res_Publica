@@ -35,7 +35,7 @@ Additional changes not displayed in the above screenhots are:
     [*] [i] Government Reform:	[/i] An Agreement of the People
     [*] [i] Parliament:			[/i] Constitutional Parliament
     [*] [i] Succession:			[/i] Term-limited rulers
-    [*] [i] Law:				[/i] Parliament (Distribution of Power)
+    [*] [i] Law:				[/i] The House of Commons (Distribution of Power)
     [*] [i] Building:			[/i] House of Parliament
     [*] [i] Building:			[/i] Supreme Court
     [*] [i] Estate Privilege:	[/i] Provincial Assemblies
