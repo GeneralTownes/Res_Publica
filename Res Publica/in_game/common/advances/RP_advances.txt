@@ -2,6 +2,12 @@
 	monthly_republican_tradition = 0.1
 }
 
+INJECT:liberty_egalite_fraternity = {
+	monthly_republican_tradition = 0.1
+}
+
+## Res Publica additions
+
 republican_virtue_advance = {
 	age = age_2_renaissance
 	government = republic

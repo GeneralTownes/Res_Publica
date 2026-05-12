@@ -7,10 +7,10 @@
 				has_advance = magna_carta_advance
 				overlord ?= { OR = { has_or_had_tag = ENG has_or_had_tag = GBR } }
 			}
-			government_type = government_type:republic
 		}
 	
 		allow = {
+			government_type = government_type:republic
 			modifier:has_a_parliamentary_system = yes
 		}
 		country_modifier = {
