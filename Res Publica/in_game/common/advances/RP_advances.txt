@@ -2,7 +2,13 @@
 	monthly_republican_tradition = 0.1
 }
 
-INJECT:liberty_egalite_fraternity = {
+REPLACE:liberty_egalite_fraternity = {
+	age = age_6_revolutions
+	government = republic
+	requires = rights_of_man
+	
+	tolerance_heretic = 1
+	tolerance_heathen = 1
 	monthly_republican_tradition = 0.1
 }
 
