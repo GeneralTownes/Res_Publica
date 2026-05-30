@@ -1,9 +1,12 @@
 ﻿REPLACE:change_government_type_price = {
 	stability = 150
-	legitimacy = 75
+	government_power = 75
 }
 
 # Res Publica additions
-restless_republic_price = {
-	stability = 25
+restless_republic_price_commonwealth_path = {
+	government_power = 10
+}
+restless_republic_price_protectorate_path = {
+	war_exhaustion = 5
 }

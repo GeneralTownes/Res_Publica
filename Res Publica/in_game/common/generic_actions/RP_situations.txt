@@ -23,7 +23,7 @@
 			NOT = { has_country_modifier = noble_lands_impounded }
 		}
 	}
-	price = price:restless_republic_price
+	price = price:restless_republic_price_commonwealth_path
 
 	cooldown = {
 	}
@@ -103,7 +103,7 @@ instrument_of_government = {
 			republican_tradition > 50
 		}
 	}
-	price = price:restless_republic_price
+	price = price:restless_republic_price_commonwealth_path
 
 	cooldown = {
 	}
@@ -179,11 +179,14 @@ rule_of_the_major_generals = {
 
 	allow = {
 		scope:actor ?= {
-			parliament_type = parliament_type:no_parliament
-			NOT = { has_reform = government_reform:the_protectorate }
+			NOT = { has_reform = government_reform:constitutional_republic }
+			OR = {
+				NOT = { has_reform = government_reform:the_protectorate }
+				NOT = { parliament_type = parliament_type:no_parliament }
+			}
 		}
 	}
-	price = price:restless_republic_price
+	price = price:restless_republic_price_protectorate_path
 
 	cooldown = {
 	}
@@ -213,7 +216,9 @@ rule_of_the_major_generals = {
 				unlock_government_reform_effect = {
 					type = the_protectorate
 				}
+				set_parliament_type = parliament_type:no_parliament
 				add_reform = government_reform:the_protectorate
+				add_stability = 20
 			}
 		}
 		if = {
@@ -222,7 +227,9 @@ rule_of_the_major_generals = {
 				unlock_government_reform_effect = {
 					type = the_protectorate
 				}
+				set_parliament_type = parliament_type:no_parliament
 				add_reform = government_reform:the_protectorate
+				add_stability = 20
 			}
 		}
 	}

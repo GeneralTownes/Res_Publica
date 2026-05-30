@@ -1,4 +1,24 @@
-﻿#######################
+﻿REPLACE:the_protectorate = {
+	major = yes
+	#unique = yes  # Doesn't register as unique correctly
+	government = republic
+	potential = {
+		has_unlocked_government_reform_trigger = { type = the_protectorate }
+		parliament_type = parliament_type:no_parliament
+	}
+	country_modifier = {
+		global_crown_estate_power = 1
+		monthly_republican_tradition = -0.25
+		global_estate_target_satisfaction = medium_permanent_target_satisfaction_penalty
+	}
+	locked = {
+		societal_value:absolutism_vs_liberalism > 0
+	}
+	years = 1
+}
+
+
+#######################
 # Res Publica additions
 
 constitutional_republic = {
