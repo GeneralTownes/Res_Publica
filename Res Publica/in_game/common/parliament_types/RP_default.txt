@@ -3,6 +3,7 @@
 		parliament_abolished = yes
 		global_crown_estate_power = 1
 		global_estate_max_tax = 0.05
+		change_policy_cost_modifier = -0.75
 	}
 }
 
