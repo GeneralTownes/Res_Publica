@@ -4,13 +4,7 @@
 		global_crown_estate_power = 1
 		global_estate_max_tax = 0.05
 		change_policy_cost_modifier = -0.75
-	}
-}
-
-INJECT:assembly = {
-	modifier = {
-		burghers_estate_can_participate_in_parliament = yes
-		burghers_estate_agenda_impact = -0.33
+		declaring_war_cost_modifier = -0.75
 	}
 }
 

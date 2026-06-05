@@ -1,0 +1,14 @@
+﻿INJECT:megalopolis = {
+	capital_country_modifier = {
+		government_reform_slots = 1
+		government_size = 1
+		
+		monthly_prestige = 0.2
+	
+		monthly_legitimacy = 0.1
+		monthly_tribal_cohesion = 0.1
+		monthly_devotion = 0.1
+		monthly_horde_unity = 0.1
+		monthly_republican_tradition = 0.1
+	}
+}

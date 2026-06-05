@@ -41,6 +41,7 @@ Additional changes not displayed in the above screenhots are:
     [*] [i] Building:			[/i] Supreme Court
     [*] [i] Estate Privilege:	[/i] Provincial Assemblies
     [*] [i] Estate Privilege:	[/i] Autonomous Municipalities
+    [*] [i] Location Rank:		[/i] Megalopolis
 [/list]
 
 Anyone welcome to use part/all of this mod in their own, and if so credit with a reference appreciated.
