@@ -121,9 +121,7 @@ levelling_the_land = {
 		nobles_estate_target_satisfaction = big_permanent_target_satisfaction_penalty
 		
 		global_peasants_estate_power = 3
-		global_peasant_enfranchisment = 0.15
 		peasants_estate_target_satisfaction = medium_permanent_target_satisfaction
-		global_monthly_prosperity = 0.002
 		
 		monthly_towards_liberalism = societal_value_minor_monthly_move
 		monthly_towards_free_subjects = societal_value_large_monthly_move
@@ -131,6 +129,20 @@ levelling_the_land = {
 		monthly_towards_decentralization = societal_value_large_monthly_move
 		
 		pop_join_rebel_threshold = -0.1
+	}
+	
+	location_modifier = {
+		potential_trigger = {
+			OR = {
+				region = region:great_britain_region
+				region = region:ireland_region
+			}
+		}
+		local_peasant_enfranchisment = 0.15
+		local_monthly_prosperity = 0.002
+		local_population_capacity = 50
+		free_building_levels = -25
+		local_max_rgo_size_modifier = -0.1
 	}
 
 	years = 2

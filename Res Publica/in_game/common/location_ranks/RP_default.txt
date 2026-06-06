@@ -10,5 +10,8 @@
 		monthly_devotion = 0.1
 		monthly_horde_unity = 0.1
 		monthly_republican_tradition = 0.1
+		
+		stability_cost = 0.25
+		counter_espionage = -0.33
 	}
 }
