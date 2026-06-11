@@ -23,6 +23,7 @@ Additional changes not displayed in the above screenhots are:
     [*] Non-accepted culture ruler event won't fire if culture is accepted (in addition to vanilla conditions of not firing if primary or kindred view)
     [*] Conditions for Revolution disaster adjusted so will occur for absolutist monarchies and not for republics (unless very absolutist)
     [*] Removed 10-year cooldown on gifts
+    [*] Cultural toleration & acceptance no longer require minimum population
 [/list]
 
 [h3] Added methods of gaining +0.1 monthly Republican Tradition: [/h3]
