@@ -2,6 +2,10 @@
 	global_peasant_enfranchisment = -0.25
 }
 
+INJECT:country_base_values_with_taxation = {
+	monthly_republican_tradition = 1.0
+}
+
 INJECT:stability_impact = {
 	global_monthly_prosperity = 0.001
 	
@@ -17,11 +21,12 @@ INJECT:high_republican_tradition = {
 	revoke_privilege_cost_modifier = 0.4
 	legislative_efficiency = -0.10  # To counter the 0.10 in vanilla
 	
-	monthly_republican_tradition = -1
+	monthly_republican_tradition = -2
 	# to simulate decay of RT
 }
 
 INJECT:low_republican_tradition = {
-	stability_cost = -2  # To counter the 2.0 in vanilla
-	legislative_efficiency = -1
+	stability_cost_efficiency = 2  # To counter the -2 in vanilla
+	legislative_efficiency = -0.9
+	global_estate_target_satisfaction = medium_permanent_target_satisfaction
 }
