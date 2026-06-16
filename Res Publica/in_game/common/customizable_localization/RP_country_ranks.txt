@@ -37,7 +37,9 @@
 		}
 	}
 	
-	### Vanilla country_flavor copied below
+	###########################################
+	### Vanilla country_flavor copied below ###
+	###########################################
 
 	text = {
 		localization_key = country_rank_people
