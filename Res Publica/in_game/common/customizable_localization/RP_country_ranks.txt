@@ -2,13 +2,8 @@
 	type = country
 
 	text = {
-		localization_key = rank_kingdom_protectorate_british_republic
+		localization_key = rank_protectorate_british_republic
 		trigger = {
-			
-			OR = {
-				country_rank_is_empire = yes
-				country_rank_is_kingdom = yes
-			}
 			government_type = government_type:republic
 			has_reform = government_reform:the_protectorate
 			OR = {
@@ -20,13 +15,8 @@
 	}
 	
 	text = {
-		localization_key = rank_kingdom_commonwealth_british_republic
+		localization_key = rank_commonwealth_british_republic
 		trigger = {
-
-			OR = {
-				country_rank_is_empire = yes
-				country_rank_is_kingdom = yes
-			}
 			government_type = government_type:republic
 			NOT = { has_reform = government_reform:the_protectorate }
 			OR = {
@@ -34,6 +24,14 @@
 				has_or_had_tag = GBR
 				culture.language = language:english_language
 			}
+		}
+	}
+	
+	text = {
+		localization_key = rank_golden_ambrosian_republic
+		trigger = {
+			government_type = government_type:republic
+			has_reform = government_reform:ambrosian_republic_reform
 		}
 	}
 	
@@ -723,6 +721,26 @@
 
 			country_rank_is_kingdom = yes
 			has_reform = government_reform:banking_country
+		}
+	}
+
+	text = {
+		localization_key = rank_kingdom_maori_native
+		trigger = {
+			country_rank_is_kingdom = yes
+			culture = culture:maori_culture
+			NOT = {
+				OR = {
+					religion.group = religion_group:christian
+					court_language ?= language:english_language
+					overlord ?= {
+						OR = {
+							culture ?= { language = language:english_language }
+							religion.group = religion_group:christian
+						}
+					}
+				}
+			}
 		}
 	}
 
@@ -1560,7 +1578,15 @@
 		}
 	}
 
+	# Horde
 
+	text = {
+		localization_key = rank_duchy_horde
+		trigger = {
+			country_rank_is_duchy = yes
+			government_type = government_type:steppe_horde
+		}
+	}
 
 	# Tribe
 	text = {
@@ -2237,6 +2263,16 @@
 
 			country_rank_is_county = yes
 			government_type = government_type:theocracy
+		}
+	}
+
+	# Horde
+
+	text = {
+		localization_key = rank_county_horde
+		trigger = {
+			country_rank_is_county = yes
+			government_type = government_type:steppe_horde
 		}
 	}
 

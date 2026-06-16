@@ -30,15 +30,17 @@ Additional changes not displayed in the above screenhots are:
 [list]
     [*] [i] Status:				[/i] Stability
     [*] [i] Advance:			[/i] Republican Virtue		(Age II)
+    [*] [i] Advance:			[/i] The Republic's Legacy	(Age II) [ITA Culture]
+    [*] [i] Advance:			[/i] Discourses on Livy		(Age III) [ITA Culture]
     [*] [i] Advance:			[/i] Popular Sovereignty	(Age V)
     [*] [i] Advance:			[/i] Rights of Man			(Age VI)
     [*] [i] Advance:			[/i] Lib., Ega., Frat.		(Age VI)
     [*] [i] Societal Value:		[/i] Liberalism
     [*] [i] Government Reform:	[/i] Constitutional Republic
-    [*] [i] Government Reform:	[/i] An Agreement of the People
+    [*] [i] Government Reform:	[/i] An Agreement of the People [ENG/GBR]
     [*] [i] Parliament:			[/i] Constitutional Parliament
     [*] [i] Succession:			[/i] Term-limited rulers
-    [*] [i] Law:				[/i] The House of Commons (Distribution of Power)
+    [*] [i] Law:				[/i] The House of Commons (Distribution of Power) [ENG/GBR]
     [*] [i] Building:			[/i] House of Parliament
     [*] [i] Building:			[/i] Supreme Court
     [*] [i] Estate Privilege:	[/i] Provincial Assemblies

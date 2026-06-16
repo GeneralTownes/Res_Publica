@@ -1,12 +1,13 @@
 ﻿l_english:
  #
- rank_kingdom_commonwealth_british_republic: "Commonwealth"
- rank_kingdom_commonwealth_british_republic_ADJ: "presidential"
- rank_kingdom_commonwealth_british_republic_ruler_male: "President"
- rank_kingdom_commonwealth_british_republic_ruler_female: "President"
+ rank_commonwealth_british_republic: "Commonwealth"
+ rank_commonwealth_british_republic_ADJ: "presidential"
+ rank_commonwealth_british_republic_ruler_male: "President"
+ rank_commonwealth_british_republic_ruler_female: "President"
  #
- rank_kingdom_protectorate_british_republic: "The Protectorate"
- rank_kingdom_protectorate_british_republic_ADJ: "protectorate"
- rank_kingdom_protectorate_british_republic: "Lord Protector"
- rank_kingdom_protectorate_british_republic: "Lady Protectress"
+ rank_protectorate_british_republic: "The Protectorate"
+ rank_protectorate_british_republic_ADJ: "protectorate"
+ rank_protectorate_british_republic: "Lord Protector"
+ rank_protectorate_british_republic: "Lady Protectress"
  #
+ rank_golden_ambrosian_republic: "Golden Ambrosian Republic"
