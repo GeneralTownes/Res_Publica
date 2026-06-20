@@ -44,8 +44,8 @@ conscription_law = {
 		}
 		country_modifier = {
 			global_levy_size_modifier = -10
-			army_maintenance_cost = 0.25
-			navy_maintenance_cost = 0.25
+			army_maintenance_efficiency = -0.25
+			navy_maintenance_efficiency = -0.25
 			discipline = 0.05
 			land_morale_modifier = 0.1
 			naval_morale_modifier = 0.1
