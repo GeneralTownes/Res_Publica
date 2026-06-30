@@ -1,7 +1,5 @@
 ﻿##############################################
 INJECT:absolutism_vs_liberalism = {
-	left_modifier = { #Absolutism
-	}
 	right_modifier = { #Liberalism
 		monthly_republican_tradition = 0.1
 	}
