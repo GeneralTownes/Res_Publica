@@ -1,13 +1,4 @@
-﻿INJECT:individualism_vs_communalism = {
-	left_modifier = {
-		global_estate_target_satisfaction = medium_permanent_target_satisfaction
-		skill_of_new_artists = 0.25
-	}
-	right_modifier = {
-	}
-}
-
-##############################################
+﻿##############################################
 INJECT:absolutism_vs_liberalism = {
 	left_modifier = { #Absolutism
 	}
