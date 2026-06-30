@@ -24,6 +24,8 @@
 constitutional_republic = {
 	major = yes
 	government = republic
+	age = age_5_absolutism
+	
 	allow = {
 		has_advance = popular_sovereignty_advance
 	}
@@ -63,6 +65,7 @@ constitutional_republic = {
 an_agreement_of_the_people = {
 	unique = yes
 	government = republic
+	age = age_5_absolutism
 	
 	potential = {
 		OR = {
@@ -103,6 +106,7 @@ an_agreement_of_the_people = {
 levelling_the_land = {
 	unique = yes
 	government = republic
+	age = age_5_absolutism
 	
 	potential = {
 		OR = {
