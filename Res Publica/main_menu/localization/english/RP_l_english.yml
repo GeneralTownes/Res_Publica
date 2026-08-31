@@ -31,6 +31,16 @@
  mass_conscription_desc: "The [ShowGovernmentTypeName('republic')] is under threat! All citizens are required to serve in the [army|e] and [navy|e] for the defence of our liberties."
  volunteer_only: "Volunteer Only"
  volunteer_only_desc: "The constitution prohibits the impressment of citizens into military service. The [ShowGovernmentTypeName('republic')] maintains a full volunteer [army|e] and [navy|e]."
+ womens_rights_law: "Women's Rights"
+ womens_rights_law_desc: "Every society must decide the rights and status to be afforded to the "gentler gender", and ours is no different in needing to make this choice."
+ androcracy: "Androcracy"
+ androcracy_desc: "Men hold all the power in our government and afford women no role in public life."
+ cabinet_rights: "Cabinet Rights"
+ cabinet_rights_desc: "We will afford women the honour of being eligible to serve in our [cabinet|e]."
+ command_and_cabinet: "Military Leadership & Cabinet Rights"
+ command_and_cabinet_desc: "Women may serve as both a [cabinet|e] official or as a [commander|e]."
+ total_equality: "Total Equality"
+ total_equality_desc: "There is complete equality between genders, including in who may become [ruler|e]."
  
  # Parliament
  support_republic_issue: "Amend Constitution"
